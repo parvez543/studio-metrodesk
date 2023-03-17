@@ -1,0 +1,681 @@
+.get-quote-page__formsection .formsection-progressbar {
+  width: 100%;
+  height: 40px;
+  background: #f2f2fd;
+  margin: 100px 0 50px 0;
+  position: relative;
+  overflow: hidden;
+}
+.get-quote-page__formsection .formsection-progressbar .wave {
+  background: #7a80bd;
+  height: 100%;
+  position: absolute;
+}
+.get-quote-page__formsection .formsection-progressbar .wave::before {
+  content: "";
+  position: absolute;
+  width: var(--width, 0px);
+  height: var(--height, 0px);
+  left: 0;
+  background-color: rgba(122, 128, 189, 0.8901960784);
+  border-radius: 20%;
+  transform: translateY(-50%) rotate(0);
+  -webkit-animation: rotate 6s linear infinite;
+          animation: rotate 6s linear infinite;
+  z-index: 1;
+}
+.get-quote-page__formsection .formsection-progressbar .wave::after {
+  content: "";
+  position: absolute;
+  width: var(--width, 0px);
+  height: var(--height, 0px);
+  left: 0;
+  background-color: rgba(122, 128, 189, 0.8431372549);
+  border-radius: 22%;
+  transform: translateY(-50%) rotate(0);
+  -webkit-animation: rotate 10s linear -5s infinite;
+  animation: rotate 10s linear -5s infinite;
+  z-index: 2;
+}
+@-webkit-keyframes rotate {
+  50% {
+    transform: translateY(-50%) rotate(180deg);
+  }
+  100% {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+@keyframes rotate {
+  50% {
+    transform: translateY(-50%) rotate(180deg);
+  }
+  100% {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+.get-quote-page__formsection .formsection-progressbar p {
+  font-size: 25px;
+  color: #bfc1dc;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 10%);
+  z-index: 3;
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection .formsection-progressbar {
+    display: none;
+  }
+}
+.get-quote-page__formsection .formsection-main {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+  /* Tooltip container */
+  /* Tooltip text */
+  /* Show the tooltip text when you mouse over the tooltip container */
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar {
+  flex: 1;
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .sidebar-item-wrapper {
+  padding: 40px;
+  background: #f2f2f2;
+  border-bottom: 2px solid #9e9e9e;
+  position: relative;
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .sidebar-item-wrapper .item-name {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  font-size: 16px;
+  line-height: 30px;
+  background: #9e9e9e;
+  color: white;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .sidebar-item-wrapper .item-name span {
+  font-size: inherit;
+  padding-left: 50px;
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .active {
+  background: #f2f2fd;
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .active .sidebar-item p {
+  background: #232a5f;
+  color: white;
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .active .sidebar-item h6 {
+  color: #7a80bd;
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .active .item-name {
+  background: #7a80bd;
+  color: white;
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .active .expand_more {
+  display: none;
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .sidebar-item p {
+  font-size: 25px;
+  padding: 1px 12px;
+  background: #9e9e9e;
+  border-radius: 50%;
+  color: white;
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .sidebar-item h6 {
+  color: #9e9e9e;
+  font-size: 28px;
+  line-height: 38px;
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .sidebar-item .expand_icon {
+  display: none;
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection .formsection-main .formsection-main__sidebar .sidebar-item .expand_icon {
+    display: block;
+  }
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .sidebar-item .expand_less {
+  font-size: 32px;
+  color: #9e9e9e;
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .sidebar-item .expand_more {
+  font-size: 32px;
+  color: #9e9e9e;
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.get-quote-page__formsection .formsection-main .formsection-main__sidebar .sidebar-item-single {
+  padding: 20px 0;
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection .formsection-main .formsection-main__sidebar .sidebar-item-single {
+    padding: 10px 0;
+  }
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection .formsection-main .formsection-main__sidebar {
+    padding: 50px 15px 0 15px;
+  }
+}
+.get-quote-page__formsection .formsection-main .form-container {
+  flex: 2;
+  position: relative;
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection .formsection-main .form-container {
+    display: none;
+  }
+}
+.get-quote-page__formsection .formsection-main h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection .formsection-main h4 {
+    margin: 25px 0 15px 0;
+  }
+}
+.get-quote-page__formsection .formsection-main .product-card-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 23px;
+}
+.get-quote-page__formsection .formsection-main .product-card-main .item-image {
+  overflow: hidden;
+}
+.get-quote-page__formsection .formsection-main .product-card-main .item-image img {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection .formsection-main .product-card-main .item-image img {
+    height: 216px;
+  }
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection .formsection-main .product-card-main {
+    display: block;
+  }
+}
+.get-quote-page__formsection .formsection-main .tooltip {
+  position: relative;
+  display: inline-block;
+}
+.get-quote-page__formsection .formsection-main .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(85, 85, 85, 0.685);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 14px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  right: -3px;
+  bottom: -40px;
+}
+.get-quote-page__formsection .formsection-main .tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  right: 8px;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent rgba(85, 85, 85, 0.685) transparent;
+}
+.get-quote-page__formsection .formsection-main .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.get-quote-page__formsection .formsection-main .delivery-time {
+  display: none;
+}
+.get-quote-page__formsection .formsection-main .delivery-time h4 {
+  font-size: 20px;
+}
+.get-quote-page__formsection .formsection-main .delivery-time .delivery-time__main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 36px;
+       column-gap: 36px;
+  row-gap: 27px;
+  margin-top: 30px;
+}
+.get-quote-page__formsection .formsection-main .delivery-time .delivery-time__main .product-card-main__item {
+  padding: 0 0 0 0;
+}
+.get-quote-page__formsection .formsection-main .delivery-time .delivery-time__main .product-card-main__item:hover {
+  outline: 1px solid #4e527b;
+}
+.get-quote-page__formsection .formsection-main .delivery-time .delivery-time__main .item-head {
+  padding: 18px;
+}
+.get-quote-page__formsection .formsection-main .delivery-time .delivery-time__commentsection {
+  margin: 30px 0 10px 0;
+}
+.get-quote-page__formsection .formsection-main .delivery-time .delivery-time__commentsection .textarea textarea {
+  margin-top: 25px;
+  border: none;
+  background: #fafafa;
+  border-left: 1px solid #4e527b;
+  padding: 20px 20px 5px 20px;
+  outline: none;
+  font-size: 20px;
+}
+.get-quote-page__formsection .formsection-main .upload-image {
+  display: none;
+}
+.get-quote-page__formsection .formsection-main .upload-image .drag-area {
+  border: 2px dashed rgba(122, 128, 189, 0.8);
+  outline: #fafafa solid 8px;
+  height: 450px;
+  border-radius: 5px;
+  background: #fafafa;
+  position: relative;
+  padding: 15px;
+  margin-top: 40px;
+  filter: drop-shadow(0px 1px 4px rgba(122, 128, 189, 0.35));
+  overflow-y: scroll;
+}
+.get-quote-page__formsection .formsection-main .upload-image .drag-area .active {
+  border: 2px solid #fff;
+}
+.get-quote-page__formsection .formsection-main .upload-image .drag-area #result {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin-top: -40px;
+}
+.get-quote-page__formsection .formsection-main .upload-image .drag-area img {
+  height: 100px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.get-quote-page__formsection .formsection-main .upload-image .drag-area .button-container {
+  position: relative;
+  width: 100%;
+}
+.get-quote-page__formsection .formsection-main .upload-image .drag-area .button-container .image_button {
+  background: black;
+  color: white;
+  height: 22px;
+  width: 22px;
+  border: 0.5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  font-size: 18px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: inherit;
+}
+.get-quote-page__formsection .formsection-main .upload-image .drag-area .button-container .image_button:hover {
+  transform: rotate(45deg) scale(1.2);
+}
+.get-quote-page__formsection .formsection-main .upload-image .drag-area .drag-area__btn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  background: rgba(250, 250, 250, 0.9294117647);
+  box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  cursor: pointer;
+}
+.get-quote-page__formsection .formsection-main .upload-image .drag-area .drag-area__btn header {
+  color: #8b8b8b;
+}
+.get-quote-page__formsection .formsection-main .upload-image .drag-area .drag-area__btn button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: rgba(86, 96, 206, 0.7803921569);
+  cursor: pointer;
+  padding: 0;
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection .formsection-main {
+    display: block;
+    width: 100%;
+  }
+}
+.get-quote-page__formsection .contact-information {
+  display: none;
+  /* Tooltip container */
+  /* Tooltip text */
+  /* Show the tooltip text when you mouse over the tooltip container */
+}
+.get-quote-page__formsection .contact-information .common-flex-section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 85px;
+  margin-top: 30px;
+}
+.get-quote-page__formsection .contact-information .common-flex-section .primaryinput-container {
+  flex: 1;
+}
+.get-quote-page__formsection .contact-information .common-flex-section .primaryinput-container .label_star {
+  color: red;
+  margin-left: 8px;
+}
+.get-quote-page__formsection .contact-information .common-flex-section .primaryinput-container .phone-label {
+  margin-bottom: 13px;
+}
+.get-quote-page__formsection .contact-information .common-flex-section .phone-container {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection .contact-information .common-flex-section {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+}
+.get-quote-page__formsection .contact-information .message-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+.get-quote-page__formsection .contact-information .message-section textarea {
+  background: #fafafa;
+  border: none;
+  outline: none;
+  border-left: 1px solid #9095ca;
+  padding: 15px 25px;
+  font-size: 18px;
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection .contact-information .message-section {
+    margin-top: 20px;
+  }
+}
+.get-quote-page__formsection .contact-information .contact-input {
+  border: none;
+  outline: none;
+  background: #f2f2f2;
+  width: 100%;
+  height: inherit;
+  padding: 17px 25px;
+  border-left: 1px solid #9095ca;
+  font-size: 18px;
+  margin-top: 13px;
+}
+.get-quote-page__formsection .contact-information #phone {
+  padding-left: 50px;
+}
+.get-quote-page__formsection .contact-information .submit-btn {
+  position: relative;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  display: none;
+  font-size: 18px;
+}
+.get-quote-page__formsection .contact-information .submit-btn .button-sub {
+  border-left: inherit;
+  width: inherit;
+  background: #232a5f;
+  padding: 10px;
+  width: 270px;
+  color: white;
+  border: none;
+  height: inherit;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+}
+.get-quote-page__formsection .contact-information .submit-btn .loader {
+  pointer-events: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  -webkit-animation: an1 1s ease infinite;
+          animation: an1 1s ease infinite;
+}
+@-webkit-keyframes an1 {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+@keyframes an1 {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection .contact-information .submit-btn {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
+.get-quote-page__formsection .contact-information .tooltip {
+  position: relative;
+  display: inline-block;
+}
+.get-quote-page__formsection .contact-information .tooltip .warning-text {
+  visibility: hidden;
+  width: 63%;
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  box-shadow: 4px 5px 10px #ccc;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  left: 20%;
+  top: 10px;
+  border: 0.3px solid #000;
+}
+.get-quote-page__formsection .contact-information .tooltip .warning-text::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 15%;
+  margin-left: -5px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent rgb(221, 221, 221) transparent;
+}
+.get-quote-page__formsection .contact-information .tooltip .warning-text span {
+  margin: 0;
+  padding: 0;
+  color: orange;
+  font-size: 28px;
+}
+.get-quote-page__formsection .contact-information .tooltip .warning-text .material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection .contact-information {
+    margin: 30px 0;
+  }
+}
+@media only screen and (max-width : 480px) {
+  .get-quote-page__formsection {
+    width: 100%;
+  }
+}
+
+.mobile__formsection {
+  display: none;
+  margin-bottom: 30px;
+}
+.mobile__formsection .m-product-card-main__item:hover img {
+  transform: scale(1.1);
+}
+
+.mobile-deliverysection {
+  display: none;
+  margin-bottom: 30px;
+}
+.mobile-deliverysection .two-flex--item {
+  display: flex;
+  gap: 15px;
+}
+.mobile-deliverysection .m-product-card-main__item {
+  padding: 0;
+}
+.mobile-deliverysection .m-product-card-main__item .item-head {
+  padding: 20px 0 20px 12px;
+}
+.mobile-deliverysection .delivery-time__commentsection {
+  margin-top: 20px;
+}
+.mobile-deliverysection .delivery-time__commentsection textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.mobile-imageupload {
+  margin: 25px 0 35px 0;
+  display: none;
+}
+.mobile-imageupload .drag-area {
+  width: 95%;
+  border: 2px dashed rgba(122, 128, 189, 0.8);
+  outline: #fafafa solid 8px;
+  height: 350px;
+  border-radius: 5px;
+  background: #fafafa;
+  position: relative;
+  padding: 15px;
+  margin: 20px auto 0;
+  filter: drop-shadow(0px 1px 4px rgba(122, 128, 189, 0.35));
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.mobile-imageupload .drag-area .active {
+  border: 2px solid #fff;
+}
+.mobile-imageupload .drag-area #result {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  width: 100%;
+  margin-top: -40px;
+}
+.mobile-imageupload .drag-area img {
+  height: 100px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.mobile-imageupload .drag-area .button-container {
+  position: relative;
+  width: 100%;
+}
+.mobile-imageupload .drag-area .button-container .image_button {
+  background: black;
+  color: white;
+  height: 22px;
+  width: 22px;
+  border: 0.5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  font-size: 18px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: inherit;
+}
+.mobile-imageupload .drag-area .button-container .image_button:hover {
+  transform: rotate(45deg) scale(1.2);
+}
+.mobile-imageupload .drag-area .drag-area__btn {
+  font-size: 15px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  background: rgba(250, 250, 250, 0.9294117647);
+  box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%);
+  z-index: 2;
+  cursor: pointer;
+}
+.mobile-imageupload .drag-area .drag-area__btn header {
+  color: #8b8b8b;
+}
+.mobile-imageupload .drag-area .drag-area__btn button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: rgba(86, 96, 206, 0.7803921569);
+  cursor: pointer;
+  padding: 0;
+}
+
+.m-product-card-main__item {
+  width: 100%;
+  background: #fafafa;
+  border-radius: 5px;
+  filter: drop-shadow(0px 1px 2px rgba(122, 128, 189, 0.3));
+  padding: 0 12px 20px 12px;
+  position: relative;
+}
+.m-product-card-main__item:hover {
+  outline: 1px solid #4e527b;
+  box-shadow: 0px 0px 15px 2px rgba(122, 128, 189, 0.35);
+}/*# sourceMappingURL=formsection.css.map */
