@@ -5,13 +5,13 @@ import "./HomeComponent.css"
 
 const HomeComponent = () => {
     return (
-        <div className='flex flex-col-reverse px-10 lg:px-0 items-center lg:flex-row lg:items-start justify-center gap-16 pt-16'>
+        <div className='flex flex-col-reverse px-10 lg:px-0 items-center lg:flex-row lg:items-start justify-center gap-16 pt-16 heroSection'>
             <div>
-                <img src={bannerImage} className="lg:w-[500px] lg:h-[500px]" alt="Vector Conversion" />
+                <img src={bannerImage} className="w-full lg:w-[500px] lg:h-[500px]" alt="Vector Conversion" />
                 <p className='text-center lg:text-left pt-3'>Vector Conversion</p>
             </div>
             <div className='text-left'>
-                <p className='text-3xl font-bold'>24/7 Photo</p>
+                <p className='text-3xl font-bold text-gray-400'>24/7 Photo</p>
                 <h1 className='text-7xl lg:text-9xl font-bold text-green-600 lg:-ml-3'>Editing</h1>
                 <p className='text-xl font-semibold'>with 100% Satisfaction Guaranteed</p>
                 <p className='lg:w-[520px] mt-6 text-gray-600 text-xl'>From simple clipping path to multi clipping path to ghost mannequin to retouching to vector conversion to embroidery digitizing, we do everything for you.</p>
