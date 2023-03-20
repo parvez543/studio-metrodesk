@@ -14,11 +14,11 @@ const WorkingProcess = () => {
                 <p className='text-xl text-gray-700 text-left'>3 simple steps to get your photo editing and retouching done right. </p>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-12'>
                 {/* Get A Quote */}
-                <div className='cardContainer lg:w-[350px]'>
+                <div className='cardContainer cardOne'>
                     <img  src={getAQuote} alt="Quotation Icon" />
                     <h3 className='text-2xl text-gray-700 mt-6 mb-3 font-medium text-left'>Request A Quote</h3>
                     <p className='text-gray-600 text-left'>Please send us a few sample images with editing requirements, image volume and turnaround time. We'll give you an estimate right away.</p>
-                    <div className='mt-12 flex justify-start items-center gap-1 text-blue-500 hover:text-blue-800'>
+                    <div className='mt-4 flex justify-start items-center gap-1 text-blue-500 hover:text-blue-800'>
                 <div>
                     <p className='text-lg'>Click Here</p>
                 </div>
@@ -28,14 +28,14 @@ const WorkingProcess = () => {
             </div>
                 </div>
                 {/* Approve Our Quote */}
-                <div  className='cardContainer lg:w-[350px]'>
+                <div  className='cardContainer cardTwo'>
                     <img src={approveQuote} alt="Approval Icon" />
                     <h3 className='text-2xl text-gray-700 mt-6 mb-3 font-medium text-left'>Approve Our Quote</h3>
                     <img className='arrow' src={arrow} alt="Arrow"/>
                     <p className='text-gray-600 text-left'>You can always make any final adjustments to the quote. When both parties agree, you approve the work order. Finally, you get back to the fun stuff while we edit your images.</p>
                 </div>
                 {/* Get It Done */}
-                <div  className='cardContainer lg:w-[350px]'>
+                <div  className='cardContainer'>
                     <img className='' src={getItDone} alt="Get It Done Icon" />
                     <h3 className='text-2xl text-gray-700 mt-6 mb-3 font-medium text-left'>Get It Done</h3>
                     <img className='arrow' src={arrow} alt="Arrow"/>
