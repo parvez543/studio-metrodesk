@@ -6,3 +6,18 @@
     padding: 4px;
     color: #000000;
 }
+.serviceCard{
+    background: #FAFAFA;
+    border-radius: 0.25rem;
+    width: full;
+    padding: 30px;
+}
+.serviceImg{
+    width: 200px;
+    display: block;
+    margin: auto;
+    transition: 0.3s ease-in;
+}
+.serviceImg:hover{
+    transform: scale(1.10);
+}
