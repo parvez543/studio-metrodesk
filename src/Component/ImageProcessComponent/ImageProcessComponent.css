@@ -1,3 +1,7 @@
+.contentContainer{
+    background: #fafafa;
+}
+
 .secHead{
     color: #7A80BD;
 }
@@ -28,5 +32,5 @@
     /* width: 200px; */
 }
 .menu-btn:hover{
-    
+
 }
