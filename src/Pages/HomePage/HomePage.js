@@ -1,6 +1,7 @@
 import React from 'react';
 import FlagComponent from '../../Component/FlagComponent/FlagComponent';
 import HomeComponent from '../../Component/HomeComponent/HomeComponent';
+import ImageProcessComponent from '../../Component/ImageProcessComponent/ImageProcessComponent';
 import ServiceComponent from '../../Component/ServiceComponent/ServiceComponent';
 import WorkingProcess from '../../Component/WorkingProcess/WorkingProcess';
 
@@ -11,6 +12,7 @@ const HomePage = () => {
             <FlagComponent/>
             <ServiceComponent/>
             <WorkingProcess/>
+            <ImageProcessComponent/>
         </div>
     );
 };

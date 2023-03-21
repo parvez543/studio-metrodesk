@@ -1,0 +1,32 @@
+.secHead{
+    color: #7A80BD;
+}
+.imgContainer{
+    max-width: 320px;
+    border-radius: 80px;
+    box-shadow: 4px 0px 15px rgba(0,0,0,0.11);
+    border-radius: 80px;
+}
+.icons{
+    background: #88D0A0;
+    border-radius: 80px 80px 0px 0px;
+    /* width: 100%; */
+}
+.onTime{
+    background: #ADD7FF;
+}
+.turnAround{
+    background: #F39167;
+}
+.menu-btn{
+    background: #232A5F;
+    color: #ffffff;
+    border: 1px solid #232A5F;
+    border-radius: 6px;
+    transition: .3s;
+    font-weight: 500;
+    /* width: 200px; */
+}
+.menu-btn:hover{
+    
+}
