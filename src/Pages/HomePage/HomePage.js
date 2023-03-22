@@ -5,6 +5,7 @@ import ImageProcessComponent from '../../Component/ImageProcessComponent/ImagePr
 import ServiceComponent from '../../Component/ServiceComponent/ServiceComponent';
 import Testimonial from '../../Component/Testimonail/Testimonial';
 import UsingOurWorks from '../../Component/UsingOurWorks/UsingOurWorks';
+import WhoWeHelp from '../../Component/WhoWeHelp/WhoWeHelp';
 import WhyUs from '../../Component/WhyUs/WhyUs';
 import WorkingProcess from '../../Component/WorkingProcess/WorkingProcess';
 
@@ -19,6 +20,7 @@ const HomePage = () => {
             <WhyUs/>
             <UsingOurWorks/>
             <Testimonial/>
+            <WhoWeHelp/>
             
         </div>
     );
