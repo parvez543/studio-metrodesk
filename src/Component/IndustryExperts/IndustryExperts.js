@@ -1,6 +1,7 @@
 import React from 'react';
 import './IndustryExperts.css'
 import expertsData from "../../data/expertsdata"
+import { FaAngleRight } from 'react-icons/fa';
 
 const IndustryExperts = () => {
     console.log(expertsData);
@@ -26,6 +27,7 @@ const IndustryExperts = () => {
                         </>)
                     }
                 </div>
+                <p className='mt-10 flex text-xl justify-center items-center text-blue-500  hover:text-blue-800 cursor-pointer'>See All Service <FaAngleRight className='mt-[1.5px]'/></p>
             </div>
         </div>
     );
