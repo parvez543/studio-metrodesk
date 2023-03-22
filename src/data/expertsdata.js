@@ -54,3 +54,5 @@ const experts = [
         "description": "Whether you have ties, cufflinks, wallets, eye wear or backpacks we retouch them to match your brand guideline and make your products stand out from the competition. Get a free trial today."
     }
 ]
+
+export default experts;
