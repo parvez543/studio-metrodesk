@@ -2,6 +2,7 @@ import React from 'react';
 import FlagComponent from '../../Component/FlagComponent/FlagComponent';
 import HomeComponent from '../../Component/HomeComponent/HomeComponent';
 import ImageProcessComponent from '../../Component/ImageProcessComponent/ImageProcessComponent';
+import IndustryExperts from '../../Component/IndustryExperts/IndustryExperts';
 import ServiceComponent from '../../Component/ServiceComponent/ServiceComponent';
 import Testimonial from '../../Component/Testimonail/Testimonial';
 import UsingOurWorks from '../../Component/UsingOurWorks/UsingOurWorks';
@@ -21,6 +22,7 @@ const HomePage = () => {
             <UsingOurWorks/>
             <Testimonial/>
             <WhoWeHelp/>
+            <IndustryExperts/>
             
         </div>
     );
