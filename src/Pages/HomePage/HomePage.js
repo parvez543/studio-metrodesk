@@ -17,6 +17,7 @@ const HomePage = () => {
             <ImageProcessComponent/>
             <WhyUs/>
             <UsingOurWorks/>
+            
         </div>
     );
 };

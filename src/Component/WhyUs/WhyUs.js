@@ -34,8 +34,8 @@ const WhyUs = () => {
                             <p className='text-gray-500 text-left'>Our expert customer support team (real humans, not bots) is ready to help you at any time, all year round. You always hear from us instantly.</p>
                         </div>
                         <div>
-                            <img className='w-[80px]' src={pixelperfect} alt="Studio MetroDesk Edit By Hand Icon" />
-                            <h3 className='text-grad-800 font-medium text-3xl mt-4 mb-2 text-left'>Pixel Perfect Result</h3>
+                            <img className='w-[80px]' src={underBudget} alt="Studio MetroDesk Edit By Hand Icon" />
+                            <h3 className='text-grad-800 font-medium text-3xl mt-4 mb-2 text-left'>Under Budget</h3>
                             <p className='text-gray-500 text-left'>We've set our pricing to match your every editing need with turnaround time & editing complexity. Find the pricing that fits you.</p>
                         </div>
                     </div>
