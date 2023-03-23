@@ -48,7 +48,7 @@ const Navbar = () => {
                                     <li><a>Submenu 2</a></li>
                                 </ul> */}
                             </li>
-                            <li><a>CONTACT</a></li>
+                           <Link to="/contact"><li><a>CONTACT</a></li></Link>
                             <li tabIndex={0}>
                                 <a>
                                     SIGN IN/UP

@@ -1,0 +1,13 @@
+.about-page {
+    background-image: url(../../assets/images/about-bg.png),linear-gradient(#FAFAFA,#FAFAFA);
+    background-position: center center,center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.submit-btn{
+    padding: 8px 24px;
+    background: #232A5F;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
+    transition: .3s;
+}
