@@ -12,15 +12,15 @@ const LetsTalk = () => {
                         <h2 className='text-left text-3xl sm:text-4xl md:text-5xl font-semibold mb-6 text-[#7A80BD]'>Let's Talk</h2>
                         <p className='text-gray-700 text-xl text-left lg:w-[450px]'>Our kind, happy and humble customer support team would love to answer your questions. Give us a call or send an email to speak with an actual human (zero waiting time).</p>
 
-                        <div className='flex items-center gap-4 mt-6 text-2xl text-blue-900 hover:text-blue-700 cursor-pointer'>
-                            <FaPhone/><p>+1 (973) 262-9181</p>
+                        <div className='flex items-center gap-4 mt-6 text-xl lg:text-2xl text-blue-900 hover:text-blue-700 cursor-pointer'>
+                            <FaPhone/><p className='text-left'>+1 (973) 262-9181</p>
                         </div>
-                        <div className='flex items-center gap-4 mt-3 text-2xl text-blue-900 hover:text-blue-700 cursor-pointer'>
-                            <FaUserFriends/><p className='flex items-center gap-2'>Talk To Our Editing Specialist <FaArrowRight/></p>
+                        <div className='flex items-center gap-4 mt-3 text-xl lg:text-2xl text-blue-900 hover:text-blue-700 cursor-pointer'>
+                            <FaUserFriends/><p className='flex items-center gap-2 text-left'>Talk To Our Editing Specialist <FaArrowRight/></p>
                         </div>
                     </div>
                     <div>
-                        <img src={talkingMan} alt="Studio MetroDesk Man Talking on Phone" className='profilePhoto w-[450px]'/>
+                        <img src={talkingMan} alt="Studio MetroDesk Man Talking on Phone" className='profilePhoto w-[450px] hidden lg:block'/>
                     </div>
                 </div>
             </div>
