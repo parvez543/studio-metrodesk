@@ -1,0 +1,25 @@
+
+@keyframes bouncepartner-1{
+    from {
+        top: 25px;
+    }
+    to{
+        top: 0px
+    }
+}
+
+.imgBox{
+    background: #E8EAFF;
+    border-radius: 8px;
+}
+.anim-wave-start{
+    animation: bouncepartner-1 5s infinite;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: bouncepartner-1;
+}

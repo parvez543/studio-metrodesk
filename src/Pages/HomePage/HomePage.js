@@ -1,8 +1,10 @@
 import React from 'react';
+import FAQ from '../../Component/FAQ/FAQ';
 import FlagComponent from '../../Component/FlagComponent/FlagComponent';
 import HomeComponent from '../../Component/HomeComponent/HomeComponent';
 import ImageProcessComponent from '../../Component/ImageProcessComponent/ImageProcessComponent';
 import IndustryExperts from '../../Component/IndustryExperts/IndustryExperts';
+import OurPartners from '../../Component/OurPartners/OurPartners';
 import ServiceComponent from '../../Component/ServiceComponent/ServiceComponent';
 import Testimonial from '../../Component/Testimonail/Testimonial';
 import UsingOurWorks from '../../Component/UsingOurWorks/UsingOurWorks';
@@ -23,6 +25,8 @@ const HomePage = () => {
             <Testimonial/>
             <WhoWeHelp/>
             <IndustryExperts/>
+            <OurPartners/>
+            <FAQ/>
             
         </div>
     );
