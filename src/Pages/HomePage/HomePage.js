@@ -4,6 +4,7 @@ import FlagComponent from '../../Component/FlagComponent/FlagComponent';
 import HomeComponent from '../../Component/HomeComponent/HomeComponent';
 import ImageProcessComponent from '../../Component/ImageProcessComponent/ImageProcessComponent';
 import IndustryExperts from '../../Component/IndustryExperts/IndustryExperts';
+import LetsTalk from '../../Component/LetsTalk/LetsTalk';
 import OurPartners from '../../Component/OurPartners/OurPartners';
 import ServiceComponent from '../../Component/ServiceComponent/ServiceComponent';
 import Testimonial from '../../Component/Testimonail/Testimonial';
@@ -27,6 +28,7 @@ const HomePage = () => {
             <IndustryExperts/>
             <OurPartners/>
             <FAQ/>
+            <LetsTalk/>
             
         </div>
     );
