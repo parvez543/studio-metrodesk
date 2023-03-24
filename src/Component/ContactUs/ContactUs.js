@@ -3,12 +3,12 @@ import "./ContactUs.css"
 import mailus from "../../assets/images/email.png"
 import chatnow from "../../assets/images/chat.png"
 import callus from "../../assets/images/callus.png"
-import { FaAngleRight } from 'react-icons/fa';
+import { FaAngleRight, FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 const ContactUs = () => {
     return (
-        <div className='bg-[#FAFAFA]'>
-            <div className='container mx-auto px-10 lg:px-56 py-20'>
+        <div className=''>
+            <div className='container mx-auto px-10 lg:px-56 py-20 '>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                     <div className='cardItems px-6 py-10'>
                         <div className='flex justify-center items-center'>
@@ -45,6 +45,30 @@ const ContactUs = () => {
                         <div className='flex justify-center items-center text-blue-500 hover:text-blue-800 py-4 mt-4'>
                                <p>Call <a href='+1 (973) 262-9181'>+1 (973) 262-9181</a></p>
                             </div>
+                    </div>
+                </div>
+            </div>
+            <div className='con-card bg-[#FAFAFA] py-14'>
+                <div className='flex flex-col lg:flex-row items-center justify-center gap-12 py-6'>
+                    <div>
+                        <h3 className='con-header text-3xl lg:text-[48px]'>Connect With Us <br/> Social Media</h3>
+                    </div>
+                    <div className='flex'>
+                       <div>
+                        <a href='https://www.facebook.com/StudioMetrodesk' className=' text-gray-500 hover:text-blue-900 text-3xl'><FaFacebookSquare className='text-5xl ml-10'/></a>
+                       </div>
+                       <div>
+                        <a href='https://www.facebook.com/StudioMetrodesk' className=' text-gray-500 hover:text-blue-900 text-3xl'><FaLinkedin className='text-5xl ml-4 mt-16'/></a>
+                       </div>
+                       <div>
+                        <a href='https://www.instagram.com/studiometrodeskinc/' className=' text-gray-500 hover:text-blue-900 text-3xl'><FaInstagramSquare className='text-5xl ml-3 -mt-1'/></a>
+                       </div>
+                       <div>
+                        <a href='https://twitter.com/MetrodeskInc' className=' text-gray-500 hover:text-blue-900 text-3xl'><FaTwitter className='text-5xl  mt-20'/></a>
+                       </div>
+                       <div>
+                        <a href='https://www.youtube.com/channel/UCn3B2chTLRava7zS0YZcTVg' className=' text-gray-500 hover:text-blue-900 text-3xl'><FaYoutube className='text-5xl'/></a>
+                       </div>
                     </div>
                 </div>
             </div>

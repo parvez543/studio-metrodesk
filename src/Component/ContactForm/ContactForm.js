@@ -8,7 +8,7 @@ const ContactForm = () => {
         <div className='container mx-auto px-10 lg:px-56 py-20'>
             <h2 className='mb-3 text-2xl sm:text-3xl md:text-5xl font-semibold text-left text-[#7A80BD]'>Contact Your Amazing Team </h2>
             <p className='text-2xl text-left mt-2 text-gray-700'>You can contact our team for anything and everything :-)</p>
-            <div className='flex gap-12'>
+            <div className='flex flex-col-reverse lg:flex-row gap-12'>
                 <div className='mt-12'>
                     <form className='text-left'>
                         <div className='flex flex-col lg:flex-row gap-6 lg:gap-20'>
@@ -34,7 +34,7 @@ const ContactForm = () => {
                         <div className='flex flex-row gap-20 mt-6'>
                             <div className='flex flex-col'>
                                 <label className='text-gray-500 mb-2 text-xl'>Your Message *</label>
-                                <textarea className='w-full py-3 px-3  border-l border-indigo-400 bg-[#F2F2F2]' placeholder='Write Your Message Here' cols="60" rows="10" required></textarea>
+                                <textarea className='w-full py-3 px-3  border-l border-indigo-400 bg-[#F2F2F2]' placeholder='Write Your Message Here' col="60" row="10" required></textarea>
                             </div>
 
                         </div>
@@ -44,7 +44,7 @@ const ContactForm = () => {
                     </form>
                 </div>
                 <div>
-                    <img className='w-[500px]' src={contact}/>
+                    <img className='lg:w-[500px]' src={contact}/>
                 </div>
             </div>
         </div>

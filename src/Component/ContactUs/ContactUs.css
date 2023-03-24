@@ -3,3 +3,14 @@
     background: #ffffff;
     box-shadow: 0 0 20px rgba(0,0,0,0.05);
 }
+.con-card{
+    text-align: center;
+    /* background: #ffffff; */
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+.con-header{
+    
+    font-weight: 600;
+    line-height: 1.2;
+    color: #7A80BD;
+}
