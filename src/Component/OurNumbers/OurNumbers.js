@@ -1,6 +1,7 @@
 import React from 'react';
 import "./OurNumbers.css"
 import numbers from "../../data/numbers"
+import quotation from "../../assets/images/quotation.png"
 
 const OurNumbers = () => {
     return (
@@ -19,6 +20,17 @@ const OurNumbers = () => {
                     
                     </>)
                 }
+            </div>
+            <div  className='numberContainer px-4 py-6 mt-6'>
+                <div className='flex flex-col lg:flex-row items-center justify-center gap-12'>
+                    <div>
+                        <h3 className='text-2xl lg:w-[250px] block mx-auto mb-2 text-[#7A80BD]'>1000+ Happy Customer Testimonials</h3>
+                        <p className='lg:w-[450px] text-lg'>Served thousands of happy customers from all over the world. They love working with us.</p>
+                    </div>
+                    <div>
+                        <img className='w-[150px]' src={quotation} alt="Studio MetroDesk Quotation Icon"/>
+                    </div>
+                </div>
             </div>
         </div>
     );

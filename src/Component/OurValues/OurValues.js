@@ -9,9 +9,9 @@ const OurValues = () => {
             <div className='container mx-auto px-10 lg:px-56 py-20'>
                 <div>
                     <div>
-                        <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#7A80BD] text-left'>Our Values</h2>
-                        <div className='flex justify-start gap-12'>
+                        <div className='flex flex-col-reverse lg:flex-row justify-start gap-12'>
                             <div className='text-left text-lg lg:w-[500px] text-gray-700'>
+                        <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#7A80BD] text-left'>Our Values</h2>    
                                 <p className='mb-3 mt-4'><b>Do the right thing:</b> Integrity is the foundation for everything we do. We are admired and respected for our commitment to honesty, trust, and transparency. We do the right thing — even when no one is watching.</p>
                                 <p><b>Remember the feeling: </b> Our world can be frustrating, confusing and even scary. We have all been there, so we show empathy and act with humility. We are all human, and therefore, we respect our customers, partners, and coworkers.</p>
                                 <p className='mt-3'><b>Get it done:</b> Every day, customers trust us to edit and retouch high volume of images that are crucial to their success and we take that work seriously. Our team will overcome obstacles, find solutions and deliver exceptional image editing results.</p>
