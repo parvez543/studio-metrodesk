@@ -21,3 +21,7 @@
  .getAQuote:hover{
     background-color: rgb(3, 3, 145)
  }
+ .aboutBar ul li{
+   position: relative;
+   background: rgb(247, 251, 255);
+ } 
