@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutUsComponent from '../../Component/AboutUsComponent/AboutUsComponent';
+import LetsTalk from '../../Component/LetsTalk/LetsTalk';
 import LifeAtStudioMetroDesk from '../../Component/LifeAtStudioMetroDesk/LifeAtStudioMetroDesk';
 import OurNumbers from '../../Component/OurNumbers/OurNumbers';
 import OurStory from '../../Component/OurStory/OurStory';
@@ -13,6 +14,7 @@ const AboutUs = () => {
             <OurValues/>
             <OurNumbers/>
             <LifeAtStudioMetroDesk/>
+            <LetsTalk/>
         </div>
     );
 };

@@ -1,0 +1,6 @@
+.about-page {
+    background-image: url(../../assets/images/about-bg.png),linear-gradient(#FAFAFA,#FAFAFA);
+    background-position: center center,center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
