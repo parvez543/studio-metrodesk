@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div className='bg-white shadow-md'>
             <div className="container mx-auto py-2">
-                <div className="navbar bg-base-100 justify-between justify-center">
+                <div className="navbar justify-between justify-center">
                     <div className="navbar-center">
 
 
