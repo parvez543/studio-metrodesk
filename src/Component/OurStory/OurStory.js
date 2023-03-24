@@ -6,14 +6,14 @@ const OurStory = () => {
     return (
         <div className='container mx-auto px-10 lg:px-56 py-20'>
             <div>
-                <h2 className='mb-6 text-3xl sm:text-4xl md:text-5xl font-semibold text-left text-[#7A80BD]'>Our Story</h2>
-                <div className='flex justify-start gap-12'>
+                <div className='flex flex-col-reverse lg:flex-row justify-start gap-12'>
                     <div className='text-left text-lg lg:w-[500px] text-gray-700'>
+                        <h2 className='mb-6 text-3xl sm:text-4xl md:text-5xl font-semibold text-left text-[#7A80BD]'>Our Story</h2>
                         <p className='mb-3'>My name is Md. Abdul Hashib (Bipu), founder of STUDIO METRODESK. I'll start by saying this: I never thought I would be a creative graphic designer, let alone own a 24/7/365 operated image editing company with 100+ people working full-time. But as a kid, I was a visual and creative little person.</p>
                         <p>I grew up in Shajadpur, a beautiful countryside neighborhood in Bangladesh. Like any other middle-class family in the 80's - the pre-internet and pre-technology days - where we were actually forced to be imaginative. We'd spend hours in the sunshine, drawing fun things on the chalkboard, walking around the neighborhood and playing with other kids. I think that's where my obsession with creativity and design began.</p>
                     </div>
                     <div>
-                        <img src={dosir} className="lg:w-[450px]" alt="Founder And CEO of Studio MetroDesk" />
+                        <img src={dosir} className="lg:w-[450px] flex mx-auto" alt="Founder And CEO of Studio MetroDesk" />
                     </div>
                 </div>
                 <div className='text-left mt-5 text-lg text-gray-700'>
