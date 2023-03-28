@@ -24,11 +24,11 @@ const ContactForm = () => {
                         <div className='flex flex-col lg:flex-row gap-6 lg:gap-20 mt-6'>
                             <div className='flex flex-col'>
                                 <label className='text-gray-500 mb-2 text-xl'>Email *</label>
-                                <input type="text" placeholder="Your Email" class="w-full py-3 px-3  border-l border-indigo-400 bg-[#F2F2F2]" required />
+                                <input type="email" placeholder="Your Email" class="w-full py-3 px-3  border-l border-indigo-400 bg-[#F2F2F2]" required />
                             </div>
                             <div className='flex flex-col'>
                                 <label className='text-gray-500 mb-2 text-xl'>Phone Number *</label>
-                                <input type="text" placeholder="Your Phone Number" class="w-full py-3 px-3  border-l border-indigo-400 bg-[#F2F2F2]" required />
+                                <input type="tel" placeholder="Your Phone Number" class="w-full py-3 px-3  border-l border-indigo-400 bg-[#F2F2F2]" required />
                             </div>
                         </div>
                         <div className='flex flex-row gap-20 mt-6'>
