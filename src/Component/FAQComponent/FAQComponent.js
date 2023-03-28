@@ -1,5 +1,10 @@
 import React from 'react';
 import { FaAngleRight } from 'react-icons/fa';
+import DataAndSequrity from '../DataAndSequrity/DataAndSequrity';
+import EmbroideryFAQ from '../EmbroideryFAQ/EmbroideryFAQ';
+import GettingStartFAQ from '../GettingStartFAQ/GettingStartFAQ';
+import ImageEditingFAQ from '../ImageEditingFAQ/ImageEditingFAQ';
+import PricingFAQ from '../PricingFAQ/PricingFAQ';
 import "./FAQComponent.css"
 
 const FAQComponent = () => {
@@ -14,6 +19,11 @@ const FAQComponent = () => {
                    </div>
                 </div>
             </div>
+            <GettingStartFAQ/>
+            <PricingFAQ/>
+            <ImageEditingFAQ/>
+            <EmbroideryFAQ/>
+            <DataAndSequrity/>
         </div>
     );
 };
