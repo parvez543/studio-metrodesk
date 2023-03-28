@@ -1,0 +1,13 @@
+.titleTestimonial{
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.service{
+    font-size: 18px;
+    color: #7A80BD !important;
+    margin-top: 12px;
+}
