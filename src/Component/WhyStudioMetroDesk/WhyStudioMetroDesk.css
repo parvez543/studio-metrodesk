@@ -1,0 +1,6 @@
+.whyUs{
+    background-image: url(../../assets/images/crr-star-bg.png),linear-gradient(#FAFAFA,#FAFAFA);
+    background-position: center center,100% 100%;
+    background-size: 100% auto,100% 100%;
+    background-repeat: no-repeat;
+}

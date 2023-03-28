@@ -1,4 +1,4 @@
-.heroSection{
+/* .heroSection{
     background-color: #FAFAFA;
 }
 
@@ -7,4 +7,29 @@
 }
 .tryFree{
     border-bottom: 2px solid blue;
+} */
+.homeContainer{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../assets/images/homeBanner.jpg");
+    height: 70vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.5; */
+}
+.heading{
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    /* text-shadow: rgb(4, 4, 109) 1px 0 10px; */
+}
+.headerBtn{
+    border: 2px solid rgb(253, 253, 255);
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    color: white;
+}
+.headerBtn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(4,4,109);
 }

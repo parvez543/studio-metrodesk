@@ -6,7 +6,7 @@ import "./HomeComponent.css"
 const HomeComponent = () => {
     return (
         <div className='flex flex-col-reverse px-10 lg:px-0 items-center lg:flex-row lg:items-start justify-center gap-16 pt-16 heroSection'>
-            <div>
+            {/* <div>
                 <img src={bannerImage} className="w-full lg:w-[500px] lg:h-[500px]" alt="Vector Conversion" />
                 <p className='text-center lg:text-left pt-3'>Vector Conversion</p>
             </div>
@@ -39,7 +39,7 @@ const HomeComponent = () => {
                 </div>
                </div>
                 
-            </div>
+            </div> */}
         </div>
     );
 };

@@ -7,7 +7,7 @@ import "./Navbar.css"
 const Navbar = () => {
     return (
         <div className='bg-white shadow-md'>
-            <div className="container mx-auto py-2">
+            <div className="container mx-auto py-6 lg:px-20">
                 <div className="navbar justify-between justify-center">
                     <div className="navbar-center">
 
@@ -48,8 +48,8 @@ const Navbar = () => {
                                     <li><a>Testimonials</a></li>
                                     <Link to="/aboutus"><li><a>About Us</a></li></Link>
                                     <Link to='/meettheteam'><li><a>Our Team</a></li></Link>
-                                    <li><a>Careers</a></li>
-                                    <li><a>FAQs</a></li>
+                                   <Link to="/career"><li><a>Careers</a></li></Link>
+                                   <Link to="/faq"><li><a>FAQs</a></li></Link>
                                 </ul>
                             </li>
                            <Link to="/contact"><li><a>CONTACT</a></li></Link>

@@ -1,7 +1,7 @@
 .serviceText{
     color: #7A80BD;
 }
-.markText{
+/* .markText{
     background: #00ff00;
     padding: 4px;
     color: #000000;
@@ -20,4 +20,14 @@
 }
 .serviceImg:hover{
     transform: scale(1.10);
+} */
+
+.itemContainer{
+    transition: 0.1s ease-in;
+    box-shadow: 0 8px 30px rgba(31,137,153,.15), 0 10px 30px rgba(0,54,63,.1);
 }
+.itemContainer:hover{
+    transition: 0.1s ease-in;
+    box-shadow: 0 10px 35px rgba(2, 221, 255, 0.15), 0 10px 30px rgba(0, 217, 255, 0.1);
+}
+

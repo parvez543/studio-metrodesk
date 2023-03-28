@@ -1,0 +1,13 @@
+.careerBanner{
+    background-image: linear-gradient(to right,rgba(35, 42, 95,0.72),rgba(35, 42, 95,0.72)), url(../../assets/images/career-bg.jpg);
+    /* background-position: center center,84% -30%; */
+    height: 40vh;
+    background-size: cover, cover;
+}
+.careerHeading{
+    /* display: flex; */
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
