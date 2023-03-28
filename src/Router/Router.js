@@ -6,6 +6,7 @@ import ContactPage from "../Pages/ContactPage/ContactPage";
 import FAQ from "../Pages/FAQ/FAQ";
 import HomePage from "../Pages/HomePage/HomePage";
 import Team from "../Pages/Team/Team";
+import Testimonial from "../Pages/Testimonial/Testimonial";
 
 export const router = createBrowserRouter([
     {
@@ -27,6 +28,9 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/faq", element: <FAQ/>
+            },
+            {
+                path: "/testimonial", element: <Testimonial/>
             }
         ] 
     }

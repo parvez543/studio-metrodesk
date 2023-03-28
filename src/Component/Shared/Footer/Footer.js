@@ -6,7 +6,7 @@ import payment from "../../../assets/images/payment.png"
 const Footer = () => {
     return (
         <div className=' px-10 lg:px-56 py-20'>
-            <div className='flex flex-col lg:flex-row gap-24'>
+            <div className='flex justify-center flex-col lg:flex-row gap-24'>
                 <div>
                     <img src={logo} alt="Logo of StudioMetroDesk" />
                     <p className='text-left lg:w-[400px] mt-4 text-lg text-gray-500'>We're on a mission to make high-volume image editing effortless for our clients. Look at our logo; it shows how we make our clients feel comfortable once they outsource the editing work to us. Editing done on time on budget — EVERY TIME.</p>

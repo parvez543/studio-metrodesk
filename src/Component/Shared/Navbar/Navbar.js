@@ -45,11 +45,11 @@ const Navbar = () => {
                                 </a>
                                 <ul className="p-2">
                                     <p></p>
-                                    <li><a>Testimonials</a></li>
+                                    <Link to="/testimonial"> <li><a>Testimonials</a></li></Link>
                                     <Link to="/aboutus"><li><a>About Us</a></li></Link>
                                     <Link to='/meettheteam'><li><a>Our Team</a></li></Link>
-                                   <Link to="/career"><li><a>Careers</a></li></Link>
-                                   <Link to="/faq"><li><a>FAQs</a></li></Link>
+                                    <Link to="/career"><li><a>Careers</a></li></Link>
+                                    <Link to="/faq"><li><a>FAQs</a></li></Link>
                                 </ul>
                             </li>
                            <Link to="/contact"><li><a>CONTACT</a></li></Link>
