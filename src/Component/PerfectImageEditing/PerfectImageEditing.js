@@ -15,7 +15,7 @@ const PerfectImageEditing = () => {
                     <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-left text-[#7A80BD]'>Pixel-perfect Image Editing Portfolio For Photographers</h2>
                     <p className='text-lg text-gray-700 mb-3 text-left'>Our photo editing services cover all aspects of editing and retouching, so our photographer clients can scale their business and enjoy their life the fullest.</p>
                 </div>
-                <div className='grid md:grid-cols-2 gap-6 mt-6 lg:grid-cols-3'>
+                <div className='grid md:grid-cols-2 gap-6 mt-6 lg:grid-cols-3 justify-items-center'>
                     <div>
                         <img src={clippingPath1} alt="Studio MetroDesk Easy Clipping Path"/>
                     </div>

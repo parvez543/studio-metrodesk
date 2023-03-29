@@ -1,6 +1,7 @@
 import React from 'react';
 import FAQ from '../../Component/FAQ/FAQ';
 import FlagComponent from '../../Component/FlagComponent/FlagComponent';
+import GetBackToPhotgraphy from '../../Component/GetBackToPhotgraphy/GetBackToPhotgraphy';
 import IndustryExperts from '../../Component/IndustryExperts/IndustryExperts';
 import LetsTalk from '../../Component/LetsTalk/LetsTalk';
 import PerfectImageEditing from '../../Component/PerfectImageEditing/PerfectImageEditing';
@@ -18,6 +19,7 @@ const Photographers = () => {
             <IndustryExperts/>
             <WorkingProcess/>
             <PerfectImageEditing/>
+            <GetBackToPhotgraphy/>
             <WhyUs/>
             <Testimonial/>
             <FAQ/>
