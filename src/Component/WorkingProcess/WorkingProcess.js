@@ -12,7 +12,7 @@ const WorkingProcess = () => {
             <div className='container mx-auto py-20 px-10 lg:px-56'>
                 <h2 className='mb-3 text-3xl md:text-4xl lg:text-5xl font-semibold text-left workingHead'>How Does The Process Work?</h2>
                 <p className='text-xl text-gray-700 text-left'>3 simple steps to get your photo editing and retouching done right. </p>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-12'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-12 gap-6'>
                 {/* Get A Quote */}
                 <div className='cardContainer cardOne'>
                     <img  src={getAQuote} alt="Quotation Icon" />

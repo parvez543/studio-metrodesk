@@ -5,6 +5,7 @@ import GetBackToPhotgraphy from '../../Component/GetBackToPhotgraphy/GetBackToPh
 import IndustryExperts from '../../Component/IndustryExperts/IndustryExperts';
 import LetsTalk from '../../Component/LetsTalk/LetsTalk';
 import PerfectImageEditing from '../../Component/PerfectImageEditing/PerfectImageEditing';
+import PhotoEditingServiceInclude from '../../Component/PhotoEditingServiceInclude/PhotoEditingServiceInclude';
 import PhotographersComponent from '../../Component/PhotographersComponent/PhotographersComponent';
 import Testimonial from '../../Component/Testimonail/Testimonial';
 import WhyUs from '../../Component/WhyUs/WhyUs';
@@ -20,6 +21,7 @@ const Photographers = () => {
             <WorkingProcess/>
             <PerfectImageEditing/>
             <GetBackToPhotgraphy/>
+            <PhotoEditingServiceInclude/>
             <WhyUs/>
             <Testimonial/>
             <FAQ/>
