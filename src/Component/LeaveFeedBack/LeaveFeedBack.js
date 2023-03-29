@@ -70,7 +70,7 @@ const LeaveFeedBack = () => {
                             </div>
                             <div className='mt-6 mb-6'>
                                 <label className='text-gray-500 mb-2 text-xl'>Services you used *</label>
-                                <div className='mt-6 grid grid-cols-2 text-xl text-gray-600'>
+                                <div className='mt-6 grid lg:grid-cols-2 text-xl text-gray-600'>
                                     <div>
                                         <div>
                                             <input type="checkbox" className='mr-2' />

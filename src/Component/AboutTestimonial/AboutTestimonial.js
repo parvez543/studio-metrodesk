@@ -7,7 +7,7 @@ import { FaArrowRight } from 'react-icons/fa';
 const AboutTestimonial = () => {
     return (
         <div className='container mx-auto px-10 lg:px-56 py-20'>
-            <div className='flex gap-14 text-left'>
+            <div className='flex flex-col lg:flex-row gap-14 text-left'>
                 <div>
                     <h2 className='page-title text-4xl md:text-9xl font-bold color-text'>Testimonials</h2>
                     <p className='font-semibold text-2xl text-gray-900 mt-6 mb-4 '>We've so many happy customers all over the world!</p>

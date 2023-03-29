@@ -13,7 +13,7 @@ const AllTestimonialCard = ({testimonial}) => {
 
     // const {img}
     return (
-        <div className='flex justify-between items-center border-t-2 border-b-2 border-gray-200 p-6'>
+        <div className='flex flex-col lg:flex-row justify-between items-center border-t-2 border-b-2 border-gray-200 p-6'>
             <div className='flex gap-6 rev-item flex-col md:flex-row py-6 px-0 md:px-4 md:py-8 '>
                 <div>
                     <img src={img} alt="Studio MetroDesk Client"/>
