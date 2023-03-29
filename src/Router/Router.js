@@ -3,6 +3,7 @@ import Main from "../Layout/Main";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import CareerPage from "../Pages/CareerPage/CareerPage";
 import ContactPage from "../Pages/ContactPage/ContactPage";
+import ECommerceBusiness from "../Pages/ECommerceBusiness/ECommerceBusiness";
 import FAQ from "../Pages/FAQ/FAQ";
 import HomePage from "../Pages/HomePage/HomePage";
 import Photographers from "../Pages/Photographers/Photographers";
@@ -35,6 +36,9 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/photographers", element: <Photographers/>
+            },
+            {
+                path: "/ecommerce", element: <ECommerceBusiness/>
             }
         ] 
     }

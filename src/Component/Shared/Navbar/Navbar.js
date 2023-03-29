@@ -35,7 +35,7 @@ const Navbar = () => {
                                 </a>
                                 <ul className="p-2">
                                     <Link to="/photographers"><li><a>Photographers</a></li></Link>
-                                    <li><a>E-Commerce Business</a></li>
+                                    <Link to="/ecommerce"><li><a>E-Commerce Business</a></li></Link>
                                     <li><a>Studio And Agencies</a></li>
                                     <li><a>Growing Brands</a></li>
                                 </ul>
