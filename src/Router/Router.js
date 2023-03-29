@@ -5,6 +5,7 @@ import CareerPage from "../Pages/CareerPage/CareerPage";
 import ContactPage from "../Pages/ContactPage/ContactPage";
 import FAQ from "../Pages/FAQ/FAQ";
 import HomePage from "../Pages/HomePage/HomePage";
+import Photographers from "../Pages/Photographers/Photographers";
 import Team from "../Pages/Team/Team";
 import Testimonial from "../Pages/Testimonial/Testimonial";
 
@@ -31,6 +32,9 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/testimonial", element: <Testimonial/>
+            },
+            {
+                path: "/photographers", element: <Photographers/>
             }
         ] 
     }

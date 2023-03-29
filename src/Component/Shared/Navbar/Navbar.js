@@ -34,9 +34,10 @@ const Navbar = () => {
                                     <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
                                 </a>
                                 <ul className="p-2">
-                                    <li><a>Photographers</a></li>
+                                    <Link to="/photographers"><li><a>Photographers</a></li></Link>
                                     <li><a>E-Commerce Business</a></li>
                                     <li><a>Studio And Agencies</a></li>
+                                    <li><a>Growing Brands</a></li>
                                 </ul>
                             </li>
                             <li tabIndex={0} className="aboutBar">

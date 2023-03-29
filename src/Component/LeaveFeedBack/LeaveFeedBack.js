@@ -50,14 +50,10 @@ const LeaveFeedBack = () => {
                                 </div>
                             </div>
                             <div className='flex flex-col lg:flex-row gap-6 lg:gap-20 mt-6'>
+                                
                                 <div className='flex flex-col'>
-                                    <label className='text-gray-500 mb-2 text-xl'>Country *</label>
-                                    {/* <input type="text" placeholder="Your Profession" class="w-full py-3 px-3  border-l border-indigo-400 bg-[#F2F2F2]" required /> */}
-                                    <Select className='selectCountry' options={options} value={value} onChange={changeHandler} />
-                                </div>
-                                <div className='flex flex-col'>
-                                    <label className='text-gray-500 mb-2 text-xl lg:ml-[155px]'>Rating *</label>
-                                    <div className="lg:ml-[155px]">
+                                    <label className='text-gray-500 mb-2 text-xl'>Rating *</label>
+                                    <div className="">
                                         <RatingStar
                                             clickable
                                             maxScore={100}
@@ -66,6 +62,11 @@ const LeaveFeedBack = () => {
                                             onRatingChange={onRatingChange}
                                         />
                                     </div>
+                                </div>
+                                <div className='flex flex-col lg:ml-[140px]'>
+                                    <label className='text-gray-500 mb-2 text-xl'>Country *</label>
+                                    {/* <input type="text" placeholder="Your Profession" class="w-full py-3 px-3  border-l border-indigo-400 bg-[#F2F2F2]" required /> */}
+                                    <Select className='selectCountry' options={options} value={value} onChange={changeHandler} />
                                 </div>
                             </div>
                             <div className='mt-6 mb-6'>
