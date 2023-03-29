@@ -7,6 +7,7 @@ import ECommerceBusiness from "../Pages/ECommerceBusiness/ECommerceBusiness";
 import FAQ from "../Pages/FAQ/FAQ";
 import HomePage from "../Pages/HomePage/HomePage";
 import Photographers from "../Pages/Photographers/Photographers";
+import StudioAndAgencies from "../Pages/StudioAndAgencies/StudioAndAgencies";
 import Team from "../Pages/Team/Team";
 import Testimonial from "../Pages/Testimonial/Testimonial";
 
@@ -39,6 +40,9 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/ecommerce", element: <ECommerceBusiness/>
+            },
+            {
+                path: "/studioandagencies", element: <StudioAndAgencies/>
             }
         ] 
     }
