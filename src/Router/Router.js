@@ -5,6 +5,7 @@ import CareerPage from "../Pages/CareerPage/CareerPage";
 import ContactPage from "../Pages/ContactPage/ContactPage";
 import ECommerceBusiness from "../Pages/ECommerceBusiness/ECommerceBusiness";
 import FAQ from "../Pages/FAQ/FAQ";
+import GrowingBrands from "../Pages/GrowingBrands/GrowingBrands";
 import HomePage from "../Pages/HomePage/HomePage";
 import Photographers from "../Pages/Photographers/Photographers";
 import StudioAndAgencies from "../Pages/StudioAndAgencies/StudioAndAgencies";
@@ -43,6 +44,9 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/studioandagencies", element: <StudioAndAgencies/>
+            },
+            {
+                path: "/growingbrands", element: <GrowingBrands/>
             }
         ] 
     }

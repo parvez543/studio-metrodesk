@@ -37,7 +37,7 @@ const Navbar = () => {
                                     <Link to="/photographers"><li><a>Photographers</a></li></Link>
                                     <Link to="/ecommerce"><li><a>E-Commerce Business</a></li></Link>
                                     <Link to="/studioandagencies"><li><a>Studio And Agencies</a></li></Link>
-                                    <li><a>Growing Brands</a></li>
+                                    <Link to="/growingbrands"><li><a>Growing Brands</a></li></Link>
                                 </ul>
                             </li>
                             <li tabIndex={0} className="aboutBar">
