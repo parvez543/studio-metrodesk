@@ -1,0 +1,23 @@
+.step-head{
+    font-size: 98px;
+    line-height: 1;
+    font-weight: 700;
+    color: rgba(122,128,189,0.15);
+}
+.getStarted{
+    font-size: 48px;
+    color: #7A80BD;
+    padding: 24px 0px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.step1{
+    max-width: 100%;
+}
+.stepBg{
+    background-image: url(../../assets/images/step-bg.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    /* margin-left: 150px; */
+}

@@ -8,6 +8,7 @@ import FAQ from "../Pages/FAQ/FAQ";
 import GrowingBrands from "../Pages/GrowingBrands/GrowingBrands";
 import HomePage from "../Pages/HomePage/HomePage";
 import Photographers from "../Pages/Photographers/Photographers";
+import Process from "../Pages/Process/Process";
 import StudioAndAgencies from "../Pages/StudioAndAgencies/StudioAndAgencies";
 import Team from "../Pages/Team/Team";
 import Testimonial from "../Pages/Testimonial/Testimonial";
@@ -47,6 +48,9 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/growingbrands", element: <GrowingBrands/>
+            },
+            {
+                path: "/process", element: <Process/>
             }
         ] 
     }
