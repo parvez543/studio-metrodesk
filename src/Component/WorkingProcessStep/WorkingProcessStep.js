@@ -5,6 +5,7 @@ import step2 from "../../assets/images/hiw/hiw-2.png"
 import step3 from "../../assets/images/hiw/hiw-3.png"
 import step4 from "../../assets/images/hiw/hiw-4.png"
 import step5 from "../../assets/images/hiw/hiw-5.png"
+import { FaAngleRight, FaComments } from 'react-icons/fa';
 
 const WorkingProcessStep = () => {
     return (
@@ -66,6 +67,17 @@ const WorkingProcessStep = () => {
                             <p className='text-gray-700 text-lg text-left'>Our quality control team will double-check every image before sending you the finished files. Once your photos are perfectly ready, we'll email you a link to download the files. You get all your edits done with <span className='markText'>100% satisfaction guarantee.</span></p>
                         </div>
                     </div>
+                    <div className='flex items-center justify-center gap-2 mt-8'>
+                <div>
+                    <FaComments className='text-2xl'/>
+                </div>
+                <div className='flex items-center gap-1'>
+                    <p className='text-xl'>Need any specialized help? <span className='text-lg text-blue-500 hover:text-blue-800 cursor-pointer'>Talk to our editing specialists</span> </p>
+                    <div>
+                        <FaAngleRight className='text-lg  text-blue-500 hover:text-blue-800'/>
+                    </div>
+                </div>
+            </div>
                 </div>
             </div>
         </div>
