@@ -14,6 +14,7 @@ import StudioAndAgencies from "../Pages/StudioAndAgencies/StudioAndAgencies";
 import Team from "../Pages/Team/Team";
 import Testimonial from "../Pages/Testimonial/Testimonial";
 import MultiClippingPath from "../Pages/MultiClippingPath/MultiClippingPath";
+import GhostMannequine from "../Pages/GhostMannequine/GhostMannequine";
 
 export const router = createBrowserRouter([
     {
@@ -59,6 +60,9 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/multiclippingpath", element: <MultiClippingPath/>
+            },
+            {
+                path: "/ghostmannequine", element: <GhostMannequine/>
             }
         ] 
     }

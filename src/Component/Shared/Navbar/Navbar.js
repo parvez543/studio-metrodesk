@@ -26,7 +26,7 @@ const Navbar = () => {
                                 <ul className="p-2">
                                    <Link to="/clippingpath"><li><a>Clipping Path</a></li></Link>
                                     <Link to="/multiclippingpath "><li><a>Multi-Clipping Path</a></li></Link>
-                                    <li><a>Ghost Mannequin</a></li>
+                                    <Link to="/ghostmannequine"><li><a>Ghost Mannequin</a></li></Link>
                                     <li><a>Photo Retouching</a></li>
                                     <li><a>Vector Conversion</a></li>
                                     <li><a>Embroidery Digitizing</a></li>
