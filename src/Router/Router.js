@@ -16,6 +16,7 @@ import Testimonial from "../Pages/Testimonial/Testimonial";
 import MultiClippingPath from "../Pages/MultiClippingPath/MultiClippingPath";
 import GhostMannequine from "../Pages/GhostMannequine/GhostMannequine";
 import PhotoRetouching from "../Pages/PhotoRetouching/PhotoRetouching";
+import VectorConversion from "../Pages/VectorConversion/VectorConversion";
 
 export const router = createBrowserRouter([
     {
@@ -67,6 +68,9 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/photoretouching", element: <PhotoRetouching/>
+            },
+            {
+                path: "/vectorconversion", element: <VectorConversion/>
             }
         ] 
     }
