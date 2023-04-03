@@ -15,6 +15,7 @@ import Team from "../Pages/Team/Team";
 import Testimonial from "../Pages/Testimonial/Testimonial";
 import MultiClippingPath from "../Pages/MultiClippingPath/MultiClippingPath";
 import GhostMannequine from "../Pages/GhostMannequine/GhostMannequine";
+import PhotoRetouching from "../Pages/PhotoRetouching/PhotoRetouching";
 
 export const router = createBrowserRouter([
     {
@@ -63,6 +64,9 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/ghostmannequine", element: <GhostMannequine/>
+            },
+            {
+                path: "/photoretouching", element: <PhotoRetouching/>
             }
         ] 
     }

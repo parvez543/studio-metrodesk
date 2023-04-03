@@ -27,7 +27,7 @@ const Navbar = () => {
                                    <Link to="/clippingpath"><li><a>Clipping Path</a></li></Link>
                                     <Link to="/multiclippingpath "><li><a>Multi-Clipping Path</a></li></Link>
                                     <Link to="/ghostmannequine"><li><a>Ghost Mannequin</a></li></Link>
-                                    <li><a>Photo Retouching</a></li>
+                                    <Link to="/photoretouching"><li><a>Photo Retouching</a></li></Link>
                                     <li><a>Vector Conversion</a></li>
                                     <li><a>Embroidery Digitizing</a></li>
                                 </ul>

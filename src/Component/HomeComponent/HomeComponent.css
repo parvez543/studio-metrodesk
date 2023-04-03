@@ -17,7 +17,8 @@
 }
 .heading{
     display: flex;
-    height: 50vh;
+    flex-direction: column;
+    height: 70vh;
     justify-content: center;
     align-items: center;
     /* text-shadow: rgb(4, 4, 109) 1px 0 10px; */
