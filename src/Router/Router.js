@@ -17,6 +17,8 @@ import MultiClippingPath from "../Pages/MultiClippingPath/MultiClippingPath";
 import GhostMannequine from "../Pages/GhostMannequine/GhostMannequine";
 import PhotoRetouching from "../Pages/PhotoRetouching/PhotoRetouching";
 import VectorConversion from "../Pages/VectorConversion/VectorConversion";
+import Embroidery from "../Pages/Embroidery/Embroidery";
+import Pricing from "../Pages/Pricing/Pricing";
 
 export const router = createBrowserRouter([
     {
@@ -71,6 +73,12 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/vectorconversion", element: <VectorConversion/>
+            },
+            {
+                path: "/embroidery", element: <Embroidery/>
+            },
+            {
+                path: "/pricing", element: <Pricing/>
             }
         ] 
     }

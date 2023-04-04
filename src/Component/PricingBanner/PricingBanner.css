@@ -1,0 +1,19 @@
+.pricingBanner{
+    background-image: url(../../assets/images/price_page/path_Line.png), linear-gradient(#fafafa, #fafafa);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page-title{
+    font-size: 60px;
+    color: #16073f;
+    line-height: 1.3;
+}
+
+
+.pricePara{
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 25px;
+    color: #313030;
+}
