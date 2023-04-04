@@ -1,0 +1,33 @@
+.line{
+    width: 25%;
+    height: 4px;
+    background-color: #7a80bd;
+}
+.pricingHeader{
+    color: #111111;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.15;
+    max-width: 200px;
+    margin: auto;
+}
+.pricingImg{
+    margin: auto;
+    max-height: 52px;
+}
+.dollar-sign{
+    margin-top: 10px;
+}
+.price-text{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1;
+}
+.submitBtn{
+    background-color: rgb(4, 4, 75);
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-bottom: 48px;
+    margin-top: 20px;
+    color: white;
+}
