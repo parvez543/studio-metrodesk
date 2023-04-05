@@ -1,0 +1,22 @@
+.paymentContainer{
+    background: #fafafa;
+    background-image: url(../../assets/images/price_page/payment-section-bg.png);
+    background-size: contain;
+    background-position: center;
+    padding: 80px 0;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+.paymentSystem{
+    text-align: center;
+    /* background: rgba(255,255,255,0.6); */
+    padding: 28px;
+    border: 0.5px solid #eeeeee;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+.paymentHeading{
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600;
+}
