@@ -25,5 +25,142 @@
    position: relative;
    background: rgb(247, 251, 255);
  } 
+.Collapsible__trigger{
+   display: flex;
+   justify-content: start;
+}
+.mega-menu {
+   display: none;
+   left: 0;
+   position: absolute;
+   text-align: left;
+   width: 100%;
+  transition:.4s;
+  z-index:1000;
+ }
 
+
+
+ /* #hoverable Class Styles
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ .hoverable {
+   position: static;
+ }
+
+ .hoverable > a:after {
+   content: "\25BC";
+   font-size: 12px;
+   padding-left: 1px;
+   position: relative;
+   top: -1px;
+ }
+
+ .hoverable:hover .mega-menu {
+   display: block;
+  transition:.4s;
+ }
+ 
+
+
+ /* #toggle Class Styles
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+ .toggleable > label:after {
+   content: "\25BC";
+   font-size: 10px;
+   padding-left: 6px;
+   position: relative;
+   top: -1px;
+ }
+
+ .toggle-input {
+   display: none;
+ }
+ .toggle-input:not(checked) ~ .mega-menu {
+   display: none;
+ }
+
+ .toggle-input:checked ~ .mega-menu {
+   display: block;
+ }
+
+ .toggle-input:checked + label {
+   color: white;
+   background: #2c5282; /*@apply bg-blue-800 */
+ }
+
+ .toggle-input:checked ~ label:after {
+   content: "\25B2";
+   font-size: 10px;
+   padding-left: 6px;
+   position: relative;
+   top: -1px;
+ }
+ .m-item a{
+    font-size:14px;
+ }
+ .m-item a span{
+    font-size:14px;
+ }
+.mobile-mega-menu-holder{
+  right:24px;
+  top:57px;
+  width:280px;
+  background:rgba(250, 250, 250,.94);
+}
+.mb-mega-item img{
+  max-width:32px;
+}
+.mb-mega-item p{
+  font-size:16px;
+  
+  color:#3a3a3a;
+}
+.mb-mega-item:hover p{
+  color:#7A80BD;
+}
+.mg-2{
+  max-width:360px;
+  right:unset;
+  left:unset;
+}
+.mx-220{
+  max-width:220px;
+}
+.mx-220 a:hover{
+  color:#7a80bd;
+}
+.mega-menu-item-2 img{
+  max-width:48px;
+}
+.mega-menu-item-2 p{
+  color:#3a3a3a;
+  font-weight:400;
+}
+.mega-menu-item-2:hover p{
+  color:#7a80bd;
+}
+.mega-sub{
+  color:#232A5F;
+}
+.mobile-mega-subclose{
+  height: 48px;
+  
+width: 48px;
+border: 1px solid #999;
+line-height:48px;
+text-align:center;
+border-radius:50%;
+bottom: 44%;
+right:-22px;
+background:#ffffff;
+}
+.mobile-mega-subclose:hover{
+  color:#ffffff;
+  background:#7A80BD;
+  border-color:#7A80BD;
+  transition:.3s;
+  cursor:pointer;
+  
+}
  
