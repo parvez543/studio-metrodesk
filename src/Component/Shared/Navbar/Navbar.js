@@ -79,7 +79,7 @@ const Navbar = () => {
 
                     </div>
                     <div className='flex gap-4 justify-end w-full lg:w-[250px]'>
-                        <button className='freeTrailBtn hidden lg:block py-2 px-4'>Free Trial</button>
+                        <Link to="/freetrial"><button className='freeTrailBtn hidden lg:block py-2 px-4'>Free Trial</button></Link>
                         <button className='getAQuote py-[10px] px-4'>Get A Quote</button>
                     </div>
 

@@ -19,6 +19,7 @@ import PhotoRetouching from "../Pages/PhotoRetouching/PhotoRetouching";
 import VectorConversion from "../Pages/VectorConversion/VectorConversion";
 import Embroidery from "../Pages/Embroidery/Embroidery";
 import Pricing from "../Pages/Pricing/Pricing";
+import FreeTrial from "../Pages/FreeTrial/FreeTrial";
 
 export const router = createBrowserRouter([
     {
@@ -79,6 +80,9 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/pricing", element: <Pricing/>
+            },
+            {
+                path: "/freetrial", element: <FreeTrial/>
             }
         ] 
     }

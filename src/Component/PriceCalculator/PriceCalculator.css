@@ -23,14 +23,20 @@
     font-weight: 800;
     line-height: 1;
 }
-.submitBtn{
-    background-color: rgb(4, 4, 75);
-    padding: 15px 25px;
+.tryBtn{
+    border: 2px solid  rgb(4, 4, 75);
+    padding: 15px 55px;
     border-radius: 10px;
     margin-bottom: 48px;
     margin-top: 20px;
+    color:  rgb(4, 4, 75);
+    transition: 0.3s ease;
+}
+.tryBtn:hover{
+    background-color: rgb(4, 4, 75);
     color: white;
 }
+
 .calculator{
     border: 0.5px solid #eeeeee;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);

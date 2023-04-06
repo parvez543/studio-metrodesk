@@ -76,7 +76,7 @@ const GhostManequineCalculator = () => {
         // console.log(selectedOption * numberValue * shadows);
     }
     return (
-        <div className='mt-12 bg-white hover:bg-slate-200 rounded-lg calculator lg:w-[300px]'>
+        <div className='mt-12 bg-white hover:bg-[#fdfddc] rounded-lg calculator lg:w-[300px]'>
             <form onSubmit={handleOnClick}>
                 <div>
                     <h3 className='pricingHeader pt-10'>Ghost Mannequine</h3>
@@ -123,10 +123,10 @@ const GhostManequineCalculator = () => {
                         </select>
                     </div>
                 </div>
-                <p className='text-blue-500 text-xl mt-3'> TOTAL QUOTATION</p>
+                <p className='text-blue-900 text-xl mt-3'> TOTAL QUOTATION</p>
                 <p className='text-blue-700 text-4xl font-semibold mt-3'>${value}</p>
                 <div>
-                    <button type="submit" className='submitBtn'>Try Us Free</button>
+                    <button type="submit" className='tryBtn'>Try Us Free</button>
                 </div>
             </form>
         </div>
