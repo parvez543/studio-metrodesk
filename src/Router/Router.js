@@ -20,6 +20,7 @@ import VectorConversion from "../Pages/VectorConversion/VectorConversion";
 import Embroidery from "../Pages/Embroidery/Embroidery";
 import Pricing from "../Pages/Pricing/Pricing";
 import FreeTrial from "../Pages/FreeTrial/FreeTrial";
+import AllServicePage from "../Pages/AllServicePage/AllServicePage";
 
 export const router = createBrowserRouter([
     {
@@ -83,6 +84,9 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/freetrial", element: <FreeTrial/>
+            },
+            {
+                path: "/services", element: <AllServicePage/>
             }
         ] 
     }

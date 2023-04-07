@@ -5,7 +5,7 @@ import freetrial from "../../assets/images/free_trail.gif"
 const FreeTrialComponent = () => {
     return (
         <div className='bg-[#FAFAFA]'>
-            <div className='container mx-auto px-10 lg:px-56 py-20'>
+            <div className='container mx-auto px-10 lg:px-56 pt-12'>
                 <div className='grid lg:grid-cols-2 items-center justify-items-center'>
                     <div>
                         <h2 className='text-4xl md:text-6xl font-bold text-[#222222] text-left'>Try Free Edit 3 Of Your Image</h2>

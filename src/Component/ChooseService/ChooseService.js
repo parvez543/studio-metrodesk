@@ -15,7 +15,7 @@ const ChooseService = () => {
   
 
     return (
-        <div className='container mx-auto px-10 lg:px-56 -mt-14'>
+        <div className='container mx-auto px-10 lg:px-56 -mt-[118px]'>
             <div>
                 <div class="trail-main__wrapper">
                     <div class="body-main--frame">

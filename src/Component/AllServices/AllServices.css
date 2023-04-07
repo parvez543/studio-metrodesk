@@ -1,0 +1,9 @@
+.serviceContainer{
+    background-image: url(../../assets/images/services/service-page-bg.png),linear-gradient(#F5F6FF,#F5F6FF);
+    background-position: center center,center center;
+    background-size: auto auto,100% 100%;
+    background-repeat: no-repeat;
+}
+.sectionPara{
+    font-size: 18px;
+}

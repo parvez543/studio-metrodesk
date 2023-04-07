@@ -39,8 +39,13 @@
   z-index:1000;
  }
 
+ .menuContainer {
+  /* padding: 20px; */
+ }
 
-
+.listItem a {
+  text-align: left;
+}
  /* #hoverable Class Styles
  –––––––––––––––––––––––––––––––––––––––––––––––––– */
  .hoverable {
