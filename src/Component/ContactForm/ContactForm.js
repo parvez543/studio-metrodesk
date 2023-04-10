@@ -5,6 +5,7 @@ import contact from "../../assets/images/contact-poster.png"
 import industry from "../../data/industry"
 import imageEdit from "../../data/imagesEdit"
 import imageDuration from '../../data/editDuration';
+import countries from "../../data/countryData"
 
 
 const ContactForm = () => {
@@ -23,7 +24,7 @@ const ContactForm = () => {
                             <div className='flex flex-col '>
                                 <label className='text-gray-500 mb-2 text-xl'>Industry *</label>
                                 <div>
-                                    <select className='selectOption lg:w-[250px] border-l border-indigo-400'>
+                                    <select className='selectOption lg:w-[260px] border-l border-indigo-400'>
                                         {
                                             industry?.map(i => <>
                                                 <option>{i.name}</option>
@@ -38,9 +39,19 @@ const ContactForm = () => {
                                 <label className='text-gray-500 mb-2 text-xl'>Email *</label>
                                 <input type="email" placeholder="Your Email" className="w-full py-3 px-3  border-l border-indigo-400 bg-[#F2F2F2]" required />
                             </div>
-                            <div className='flex flex-col'>
+                            <div className='flex flex-col ml-[40px] lg:w-[300px]'>
                                 <label className='text-gray-500 mb-2 text-xl'>Phone Number *</label>
-                                <input type="tel" placeholder="Your Phone Number" class="w-full py-3 px-3  border-l border-indigo-400 bg-[#F2F2F2]" required />
+                                <div className='flex'>
+                                    <select className='border-l border-indigo-400'>
+                                        {
+                                            countries?.map(i => <>
+                                                <option>{i.emoji} {i.dial_code}</option>
+                                               
+                                            </>)
+                                        }
+                                    </select>
+                                    <input type="tel" placeholder="Phone Number" class="w-full py-3 px-3  border-l border-indigo-400 bg-[#F2F2F2]" required />
+                                </div>
                             </div>
                         </div>
                         <div className='flex flex-col lg:flex-row gap-6 lg:gap-20 mt-6'>
@@ -54,9 +65,9 @@ const ContactForm = () => {
                                     }
                                 </select>
                             </div>
-                            <div className='flex mt-6 mb-2 flex-col'>
+                            <div className='flex mt-6 mb-2 flex-col ml-9'>
                                 <label className='text-gray-500 mb-2 text-xl'>How Often Will You Edit *</label>
-                                <select className='selectOption lg:w-[240px] border-l border-indigo-400'>
+                                <select className='selectOption lg:w-[260px] border-l border-indigo-400'>
                                     {
                                         imageDuration?.map(i => <>
                                             <option>{i.name}</option>
