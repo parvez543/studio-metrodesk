@@ -6,7 +6,7 @@ import photoEditing from "../../assets/images/services/all-photoediting-service.
 const AllServices = () => {
     return (
         <div className='serviceContainer'>
-            <div className='container mx-auto px-10 lg:px-56 py-20'>
+            <div className='container mx-auto px-10 lg:px-56 py-20 gap-10'>
                 <div className='grid lg:grid-cols-2 items-start justify-items-center'> 
                     <div className='text-left'>
                         <h2 className='page-title text-4xl md:text-9xl font-bold color-text'>Complete Photo Editing Services</h2>
@@ -18,7 +18,7 @@ const AllServices = () => {
                         </div>
                     </div>
                     <div>
-                        <img src={photoEditing} alt="Studio MetroDesk PhotoEditing Service"/>
+                        <img className='photoService lg:w-[450px]' src={photoEditing} alt="Studio MetroDesk PhotoEditing Service"/>
                     </div>
                 </div>
             </div>
