@@ -1,63 +1,26 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from "../../../assets/images/Metrodesk-Studio-Logo.png"
-import { FaAngleDown, FaAngleUp, FaBars } from "react-icons/fa";
-import { ImCross } from "react-icons/im"
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai"
-import { RiMenu3Line } from "react-icons/ri"
 import "./Navbar.css"
-import Drawer from 'react-modern-drawer'
-import 'react-modern-drawer/dist/index.css'
-import Collapsible from 'react-collapsible';
-import NavDrawer from './NavDrawer';
 import logoIcon from "../../../assets/images/Metrodesk-Studio-Logo.png"
+import NavMobile from './NavMobile/NavMobile';
+
 const Navbar = () => {
     // ----It is the state to open the sidebar----
-    const [isOpen, setIsOpen] = useState(false)
+    const [show, setShow] = useState(false)
 
-   
-
-
-    // const toggleDrawer = () => {
-    //     // setIsOpen((prevState) => !prevState)
-    //     setIsOpen(!isOpen)
-    // }
-
-
-
-
-    // // -----It is the state to expand the menu components-----
-    // const [open1, setOpen1] = useState(false);
-    // const toggle1 = () => {
-    //     setOpen1(!open1);
-    // };
-
-    // const [open2, setOpen2] = useState(false);
-    // const toggle2 = () => {
-    //     setOpen2(!open2);
-    // };
-
-
-    // const handleClick = () => {
-    //     const elem = document.activeElement;
-    //     if (elem) {
-    //         elem?.blur();
-    //     }
-    // };
-
-
-
+    // console.log(show);
     return (
         <div className='md:bg-white md:shadow-md'>
+
             <div className='container mx-auto px-10 lg:px-48'>
                 <div class="header-container mx-auto flex justify-between w-full mb-hide dx-header">
 
                     <nav class="relative text-gray-900 w-full">
-                        <div class=" mx-auto flex justify-around md:justify-between">
+                        <div class=" mx-auto flex justify-around lg:mr-0 md:justify-between">
                             <div class="relative block py-2 px-0 md:py-2">
                                 <Link to="/">
-                                    <img className='w-[100px] lg:w-full' src={logoIcon} alt="Studio MetroDesk Logo"/>
-                                  
+                                    <img className='w-[100px] lg:w-full' src={logoIcon} alt="Studio MetroDesk Logo" />
+
 
                                 </Link>
                             </div>
@@ -79,11 +42,11 @@ const Navbar = () => {
 
                                         <li class="hoverable m-item">
 
-                                        <Link to="/services" class="text-black link-hov relative block md:py-6 md:px-2">SERVICES</Link>
+                                            <Link to="/services" class="text-black link-hov relative block md:py-6 md:px-2">SERVICES</Link>
 
                                             <div class="p-6  mega-menu mb-16 sm:mb-0 shadow-md bg-gray-100">
                                                 <div class="text-xl mega-sub font-semibold border-b border-gray-300 pb-4 w-full">
-                                                  <Link to="/services"><p>ALL PHOTO EDITING SERVICES</p></Link>
+                                                    <Link to="/services"><p>ALL PHOTO EDITING SERVICES</p></Link>
                                                 </div >
                                                 <div class="container mx-auto w-full flex   space-x-3">
 
@@ -437,55 +400,21 @@ const Navbar = () => {
 
                                     </ul>
                                 </div>
-                                        
-                                            <a href="<?php echo $baseurl; ?>/get-quote" class="text-White color-blue-900 -ml-3 lg:ml-3 bg-cyan-900 py-2 px-2  menu-btn ">GET A QUOTE</a>
-                                        
-                                <div>
-                                    {/* Mobile Responsive */}
-                                    <div className='block xl:hidden'>
-                                        {/* <div className="dropdown">
-                                            <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                                            </label>
-                                            <ul tabIndex={0} className="menu dropdown-content mt-3  shadow bg-base-100 rounded-box">
-                                               <Link to="/process"><li className=''><a>PROCESS</a></li></Link>
-                                               <Link to="/pricing"><li><a>PRICING</a></li></Link>
-                                                <div className='flex flex-col justify-start'>
-                                                    <li tabIndex={0}>
-                                                        <a className="justify-between" onClick={() => setIsOpen(!isOpen)}>
-                                                            SERVICES
-                                                          {
-                                                            isOpen ?  <FaAngleUp/> :  <FaAngleDown/>
-                                                          }
-                                                        </a>
-                                                       {
-                                                        isOpen && <>
-                                                             <ul className="text-left">
-                                                               <Link to="/clippingpath"> <li><a>Clipping Path</a></li></Link>
-                                                               <Link to="/multiclippingpath"> <li><a>Multi-Clipping Path</a></li></Link>
-                                                               <Link to="/ghostmannequine"> <li><a>Ghost Mannequin</a></li></Link>
-                                                               <Link to="/photoretouching"> <li><a>Photo Retouching</a></li></Link>
-                                                               <Link to="/vectorconversion"> <li><a>Vector Conversion</a></li></Link>
-                                                               <Link to="/embroidery"> <li><a>Embroidery Designing</a></li></Link>
-                                                              
-                                                            </ul>
-                                                        </>
-                                                       }
-                                                    </li>
-                                                </div>
-                                                <li><a>Item 3</a></li>
-                                            </ul>
-                                        </div> */}
-                                    </div>
-                                    {/* Mobile Responsive Added */}
-                                </div>
+
+                                <a href="" class="text-White color-blue-900 -ml-3 lg:ml-3 bg-cyan-900 py-2 px-2  menu-btn ">GET A QUOTE</a>
+
+                               
+
                             </div>
+                               <NavMobile/>
                         </div>
                     </nav>
+
                 </div>
             </div>
+
         </div>
-    );
-};
+    )
+}
 
 export default Navbar;

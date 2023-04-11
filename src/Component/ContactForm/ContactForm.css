@@ -21,3 +21,10 @@
     padding: 13px 10px;
 
 }
+.PhoneInputInput {
+    background: none;
+}
+
+.isSelected{
+    color: rgb(196, 196, 196);
+}

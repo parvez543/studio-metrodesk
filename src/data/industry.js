@@ -17,7 +17,7 @@ const industry = [
     },
     {
         "id": 5,
-        "name": "Footware"
+        "name": "Footware/Shoes"
     },
     {
         "id": 6,
@@ -29,11 +29,11 @@ const industry = [
     },
     {
         "id": 8,
-        "name": "Home Decore"
+        "name": "E-Commerce"
     },
     {
         "id": 9,
-        "name": "Furniture"
+        "name": "Garments"
     },
     {
         "id": 10,
@@ -41,6 +41,22 @@ const industry = [
     },
     {
         "id": 11,
+        "name": "Sports"
+    },
+    {
+        "id": 12,
+        "name": "Portrait"
+    },
+    {
+        "id": 13,
+        "name": "Product"
+    },
+    {
+        "id": 14,
+        "name": "Electronic"
+    },
+    {
+        "id": 15,
         "name": "Other"
     }
 ]

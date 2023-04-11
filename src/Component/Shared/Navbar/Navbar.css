@@ -38,6 +38,12 @@
   transition:.4s;
   z-index:1000;
  }
+ .navBtn{
+  color: white;
+  background: rgb(6, 6, 122);
+  padding: 10px 20px;
+  border-radius: 8px;
+ }
 
  .menuContainer {
   /* padding: 20px; */

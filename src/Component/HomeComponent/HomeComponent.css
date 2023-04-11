@@ -10,6 +10,7 @@
 } */
 .homeContainer{
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../assets/images/homeBanner.jpg");
+    padding: 20px;
     height: 70vh;
     object-fit: cover;
     background-repeat: no-repeat;
