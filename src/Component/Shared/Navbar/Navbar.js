@@ -16,7 +16,7 @@ const Navbar = () => {
                 <div class="header-container mx-auto flex justify-between w-full mb-hide dx-header">
 
                     <nav class="relative text-gray-900 w-full">
-                        <div class=" mx-auto flex justify-around lg:mr-0 md:justify-between">
+                        <div class="container mx-auto flex justify-around lg:mr-0 md:justify-between">
                             <div class="relative block py-2 px-0 md:py-2">
                                 <Link to="/">
                                     <img className='w-[100px] lg:w-full' src={logoIcon} alt="Studio MetroDesk Logo" />

@@ -2,17 +2,16 @@ import React, { useState } from 'react';
 import "./ChooseService.css"
 import clippingPath from "../../assets/images/card_1.jpg"
 import multiClippingPath from "../../assets/images/card_2.jpg"
-import retouching  from "../../assets/images/card_3.jpg"
+import retouching from "../../assets/images/card_3.jpg"
 import vector from "../../assets/images/card_4.jpg"
 import embroidery from "../../assets/images/card_5.jpg"
 import hairMasking from "../../assets/images/card_6.jpg"
 import { FaAngleRight } from 'react-icons/fa';
 
-const ChooseService = () => {
-    
-    const [currentIndex, setCurrentIndex] = useState(0);
 
-  
+const ChooseService = () => {
+
+    
 
     return (
         <div className='container mx-auto px-10 lg:px-56 -mt-[118px]'>
@@ -123,117 +122,6 @@ const ChooseService = () => {
                                             </div>
                                         </div>
                                     </form>
-
-                                    {/* <form action="" class="product-card-main mobile-card-main">
-                                        <div class="swiper mySwiper">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide">
-                                                    <div class="product-card-main__item" value="Clipping path">
-                                                        <div class="item-head">
-                                                            <input type="radio" id="html" name="form" value="Clipping path" class="circle" />
-                                                            <label for="html">Clipping path</label>
-                                                        </div>
-                                                        <div class="item-image">
-                                                            <img src="img/card_1.jpg" alt="" />
-                                                        </div>
-                                                        <div class="info-button-main">
-                                                            <div class="tooltip">
-                                                                <span class="material-symbols-outlined"> info </span>
-                                                                <span class="tooltiptext">Tooltip text</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <div class="product-card-main__item">
-                                                        <div class="item-head">
-                                                            <input type="radio" id="Multi_Clipping" name="form" value="Multi-Clipping Paths" class="circle" />
-                                                            <label for="Multi_Clipping">Multi-Clipping Paths</label>
-                                                        </div>
-                                                        <div class="item-image">
-                                                            <img src="img/card_2.jpg" alt="" />
-                                                        </div>
-                                                        <div class="info-button-main">
-                                                            <div class="tooltip">
-                                                                <span class="material-symbols-outlined"> info </span>
-                                                                <span class="tooltiptext">Tooltip text</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <div class="product-card-main__item">
-                                                        <div class="item-head">
-                                                            <input type="radio" id="retouching" name="form" value="High End Retouching" class="circle" />
-                                                            <label for="retouching">High End Retouching</label>
-                                                        </div>
-                                                        <div class="item-image">
-                                                            <img src="img/card_3.jpg" alt="" />
-                                                        </div>
-                                                        <div class="info-button-main">
-                                                            <div class="tooltip">
-                                                                <span class="material-symbols-outlined"> info </span>
-                                                                <span class="tooltiptext">Tooltip text</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <div class="product-card-main__item">
-                                                        <div class="item-head">
-                                                            <input type="radio" id="raster" name="form" value="Raster to Vector" class="circle" />
-                                                            <label for="raster">Raster to Vector</label>
-                                                        </div>
-                                                        <div class="item-image">
-                                                            <img src="img/card_4.jpg" alt="" />
-                                                        </div>
-                                                        <div class="info-button-main">
-                                                            <div class="tooltip">
-                                                                <span class="material-symbols-outlined"> info </span>
-                                                                <span class="tooltiptext">Tooltip text</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <div class="product-card-main__item">
-                                                        <div class="item-head">
-                                                            <input type="radio" id="Embroidery" name="form" value="Embroidery Digitizing" class="circle" />
-                                                            <label for="Embroidery">Embroidery Digitizing</label>
-                                                        </div>
-                                                        <div class="item-image">
-                                                            <img src="img/card_5.jpg" alt="" />
-                                                        </div>
-                                                        <div class="info-button-main">
-                                                            <div class="tooltip">
-                                                                <span class="material-symbols-outlined"> info </span>
-                                                                <span class="tooltiptext">Tooltip text</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <div class="product-card-main__item">
-                                                        <div class="item-head">
-                                                            <input type="radio" id="Masking" name="form" value="Model Hair Masking" class="circle" />
-                                                            <label for="Masking">Model Hair Masking</label>
-                                                        </div>
-                                                        <div class="item-image">
-                                                            <img src="img/card_6.jpg" alt="" />
-                                                        </div>
-                                                        <div class="info-button-main">
-                                                            <div class="tooltip">
-                                                                <span class="material-symbols-outlined"> info </span>
-                                                                <span class="tooltiptext">Tooltip text</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-pagination"></div>
-                                        </div>
-                                    </form> */}
-
                                 </div>
                             </div>
 
@@ -241,44 +129,13 @@ const ChooseService = () => {
                                 <div></div>
                                 <div class="next-btn">
                                     <button class="right-arrow btn" id="serveice-button" onclick="nextSlide(1)">
-                                        Next <FaAngleRight/>
+                                        Next <FaAngleRight />
                                     </button>
                                 </div>
                             </div>
 
                         </div>
-                        {/* Upload File */}
-                         <div class="upload-image__main">
-                            {/* <div class="image-main-wrapper">
-                                <p>Seeing your images will help us make sure your quote is accurate. It also means we can.</p>
 
-                                <div class="drag-area">
-                                    <div class="drag-area__btn">
-                                        <header>Drag & drop files here or</header>
-                                        <button>Browse File</button>
-                                    </div>
-                                    <input
-                                        id="files"
-                                        type="file"
-                                        multiple="multiple"
-                                        accept="image/jpeg, image/png, image/jpg, application/pdf"
-                                        class="image-input"
-                                        hidden
-                                    />
-
-                                    <div class="result"></div>
-                                </div>
-                            </div> */}
-                            {/* <div class="main-button">
-                                <button class="previous-button btn p-btn" onclick="previousSlide(0)">
-                                    <span class="material-symbols-outlined"> west </span> Previous
-                                </button>
-                                <div></div>
-                                <button class="next-btn btn" onclick="nextSlide(2)" id="upload-button">
-                                    Next <span class="material-symbols-outlined"> east </span>
-                                </button>
-                            </div> */}
-                        </div>
 
                         {/* Contact Form */}
                         {/* <div class="contact-information__main">
@@ -333,7 +190,7 @@ const ChooseService = () => {
                     </div>
                 </div>
 
-                
+
             </div>
         </div>
     );
