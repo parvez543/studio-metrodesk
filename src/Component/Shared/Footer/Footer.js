@@ -5,13 +5,13 @@ import payment from "../../../assets/images/payment.png"
 
 const Footer = () => {
     return (
-        <div className=' px-10 lg:px-56 py-20'>
+        <div className=' px-10 lg:px-20 2xl:px-56 py-20'>
             <div className='flex justify-center flex-col lg:flex-row gap-24'>
                 <div>
                     <img src={logo} alt="Logo of StudioMetroDesk" />
                     <p className='text-left lg:w-[400px] mt-4 text-lg text-gray-500'>We're on a mission to make high-volume image editing effortless for our clients. Look at our logo; it shows how we make our clients feel comfortable once they outsource the editing work to us. Editing done on time on budget — EVERY TIME.</p>
                 </div>
-                <div className='flex flex-col lg:flex-row gap-16'>
+                <div className='grid lg:grid-cols-4 gap-2 2xl:gap-16'>
                     <div>
                         <h2 className='font-semibold text-xl mb-4 text-left'>SERVICES</h2>
                         <div className='text-left text-gray-600 text-base'>
