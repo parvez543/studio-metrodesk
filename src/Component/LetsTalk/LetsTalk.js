@@ -6,7 +6,7 @@ import talkingMan from "../../assets/images/profilePicture.9bf8b27bde939c049bcc-
 const LetsTalk = () => {
     return (
         <div className='letsTalkContainer'>
-            <div className='container mx-auto px-10 lg:px-56 py-20'>
+            <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
                 <div className='flex flex-col lg:flex-row items-center gap-36'>
                     <div>
                         <h2 className='text-left text-3xl sm:text-4xl md:text-5xl font-semibold mb-6 text-[#7A80BD]'>Let's Talk</h2>
@@ -20,7 +20,7 @@ const LetsTalk = () => {
                         </div>
                     </div>
                     <div>
-                        <img src={talkingMan} alt="Studio MetroDesk Man Talking on Phone" className='profilePhoto w-[450px] hidden lg:block'/>
+                        <img src={talkingMan} alt="Studio MetroDesk Man Talking on Phone" className='profilePhoto lg:[350px] 2xl:w-[450px] hidden lg:block'/>
                     </div>
                 </div>
             </div>

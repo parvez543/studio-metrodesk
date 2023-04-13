@@ -5,7 +5,7 @@ import logos from "../../data/logos"
 const UsingOurWorks = () => {
     return (
         <div className='ourWorkContainer'>
-            <div className='container mx-auto py-20 px-10 lg:px-56'>
+            <div className='container mx-auto py-20 px-10 lg:px-20 2xl:px-56'>
                 <div className='grid grid-cols-3 lg:grid-cols-6 gap-5 justify-center items-center'>
                     {
                         logos?.map(logo => <>

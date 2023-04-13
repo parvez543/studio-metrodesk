@@ -8,8 +8,8 @@ import underBudget from "../../assets/images/underbudget.jpeg"
 
 const WhyUs = () => {
     return (
-        <div className='container mx-auto py-20 px-10 lg:px-56'>
-            <h2 className='mb-3 text-3xl md:text-4xl lg:text-5xl font-medium whyUs text-left'>So, Why Studio Metrodesk?</h2>
+        <div className='container mx-auto py-20 px-10 lg:px-20 2xl:px-56'>
+            <h2 className='mb-3 text-3xl md:text-4xl lg:text-5xl font-medium text-[#7A80BD] text-left'>So, Why Studio Metrodesk?</h2>
             <p className='text-xl text-left text-gray-700 mb-12'>We deliver consistent quality edits with every format and customization you need.</p>
             <div className='flex flex-col-reverse lg:flex-row items-center justify-center gap-12'>
                 <div>

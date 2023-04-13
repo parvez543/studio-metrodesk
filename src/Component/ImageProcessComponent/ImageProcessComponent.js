@@ -8,11 +8,11 @@ import { FaArrowRight } from 'react-icons/fa';
 const ImageProcessComponent = () => {
     return (
         <div className='contentContainer'>
-            <div className='container mx-auto py-20 px-10 lg:px-56'>
+            <div className='container mx-auto py-20 px-10 lg:px-20 2xl:px-56'>
                 {/* Parent Container */}
                 <div className='flex flex-col lg:flex-row justify-around gap-8 items-center'>
                     {/* Heading Container */}
-                    <div>
+                    <div className='ml-0 lg:-ml-3 2xl:ml-0'>
                         <h2 className='mb-3 text-3xl md:text-4xl text-left font-medium secHead'>10,000+ Images <br /> Process Daily</h2>
                         <p className='mb-8 text-gray-800 lg:w-[350px] text-left text-xl'>With our growing expert team, scaling to meet your photo processing needs is easy!</p>
                         <button className='text-White hover:bg-blue-900 bg-cyan-900 py-3 px-6 menu-btn text-center flex items-center gap-2' >Get Started  <FaArrowRight /></button>

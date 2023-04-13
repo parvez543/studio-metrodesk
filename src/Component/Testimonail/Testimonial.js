@@ -9,7 +9,7 @@ import { FaAngleRight } from 'react-icons/fa';
 const Testimonial = () => {
     return (
         <div className='contentContainer'>
-            <div className='container mx-auto px-10 lg:px-56 py-20'>
+            <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
                 <div className='flex flex-col-reverse lg:flex-row items-center gap-12'>
                     {/* Heading Container */}
                     <div className='flex'>
