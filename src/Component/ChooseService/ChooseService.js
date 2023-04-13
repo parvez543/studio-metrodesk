@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "./ChooseService.css"
 import clippingPath from "../../assets/images/card_1.jpg"
 import multiClippingPath from "../../assets/images/card_2.jpg"
@@ -7,134 +7,161 @@ import vector from "../../assets/images/card_4.jpg"
 import embroidery from "../../assets/images/card_5.jpg"
 import hairMasking from "../../assets/images/card_6.jpg"
 import { FaAngleRight } from 'react-icons/fa';
+import FreeTrialContactForm from '../FreeTrialContactForm/FreeTrialContactForm';
 
 
 const ChooseService = () => {
 
-    
+    const [next, setNext] = useState(null)
+    const [clickedService, setclickedService] = useState("")
+    const [files, setFiles] = useState("")
+
+    const handleChange = (e) => {
+        setclickedService(e.target.value)
+    }
+
 
     return (
-        <div className='container mx-auto px-10 lg:px-56 -mt-[118px]'>
+        <div className='container mx-auto px-10 lg:px-56 mt-[118px] lg:-mt-[118px]'>
             <div>
                 <div class="trail-main__wrapper">
                     <div class="body-main--frame">
-                        <div class="arrow-progressbar">
+                        <div class="arrow-progressbar hidden lg:block">
                             <div class="arrow-progressbar__main">
-                                <div class="choose-services progressbar-single active"><p>Choose Your Services</p></div>
-                                <div class="upload-image progressbar-single"><p>Upload Your Images</p></div>
-                                <div class="contact-information progressbar-single"><p>Contact Informations</p></div>
+                                <div class={`choose-services progressbar-single ${!next && "active"} cursor-pointer`} onClick={() => setNext(null)}><p>Choose Your Services</p></div>
+                                <button disabled={!clickedService} class={`upload-image progressbar-single ${next === "images" && "active"} cursor-pointer`} onClick={() => setNext("images")}><p>Upload Your Images</p></button>
+                                <button disabled={!clickedService} class={`contact-information progressbar-single ${next === "contact" && "active"} cursor-pointer`} onClick={() => setNext("contact")}><p>Contact Informations</p></button>
                             </div>
                         </div>
-                        <div class="service-section__main">
-                            <div class="formsection-main__body">
-                                <h4 className='text-left'>What edits do you want to try?</h4>
-                                <div>
+                        {
+                            !next && <div class="service-section__main">
+                                <div class="formsection-main__body">
+                                    <h4 className='text-left'>What edits do you want to try?</h4>
+                                    <div>
 
-                                    <form action="" class="product-card-main desktop-card-main">
-                                        <div class="product-card-main__item" value="Clipping path">
-                                            <div class="item-head">
-                                                <input type="radio" id="html" name="form" value="Clipping path" class="" />
-                                                <label for="html" className='text-xl ml-4'>Clipping path</label>
-                                            </div>
-                                            <div class="item-image mt-6">
-                                                <img src={clippingPath} alt="Studio Metro Desk Clipping Path" />
-                                            </div>
-                                            <div class="info-button-main">
-                                                <div class="tooltip">
-                                                    {/* <span class="material-symbols-outlined"> info </span> */}
-                                                    <span class="tooltiptext">Tooltip text</span>
+                                        <form action="" class="product-card-main desktop-card-main" onChange={handleChange}>
+                                            <div class="product-card-main__item" value="Clipping-path">
+                                                <div class="item-head">
+                                                    <input type="radio" id="html" name="form" value="Clipping-path" class="" />
+                                                    <label for="html" className='text-xl ml-4'>Clipping path</label>
+                                                </div>
+                                                <div class="item-image mt-6">
+                                                    <img src={clippingPath} alt="Studio Metro Desk Clipping Path" />
+                                                </div>
+                                                <div class="info-button-main">
+                                                    <div class="tooltip">
+                                                        {/* <span class="material-symbols-outlined"> info </span> */}
+                                                        <span class="tooltiptext">Tooltip text</span>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="product-card-main__item">
-                                            <div class="item-head">
-                                                <input type="radio" id="Multi_Clipping" name="form" value="Multi-Clipping Paths" class="" />
-                                                <label for="Multi_Clipping" className='text-xl ml-4'>Multi-Clipping Paths</label>
-                                            </div>
-                                            <div class="item-image mt-6">
-                                                <img src={multiClippingPath} alt="Studio Metro Desk Multi Clipping Path" />
-                                            </div>
-                                            <div class="info-button-main">
-                                                <div class="tooltip">
-                                                    {/* <span class="material-symbols-outlined"> info </span> */}
-                                                    <span class="tooltiptext">Tooltip text</span>
+                                            <div class="product-card-main__item">
+                                                <div class="item-head">
+                                                    <input type="radio" id="Multi_Clipping" name="form" value="Multi-Clipping-Paths" class="" />
+                                                    <label for="Multi_Clipping" className='text-xl ml-4'>Multi-Clipping Paths</label>
+                                                </div>
+                                                <div class="item-image mt-6">
+                                                    <img src={multiClippingPath} alt="Studio Metro Desk Multi Clipping Path" />
+                                                </div>
+                                                <div class="info-button-main">
+                                                    <div class="tooltip">
+                                                        {/* <span class="material-symbols-outlined"> info </span> */}
+                                                        <span class="tooltiptext">Tooltip text</span>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="product-card-main__item">
-                                            <div class="item-head">
-                                                <input type="radio" id="retouching" name="form" value="High End Retouching" class="" />
-                                                <label for="retouching" className='text-xl ml-4'>High End Retouching</label>
-                                            </div>
-                                            <div class="item-image mt-6">
-                                                <img src={retouching} alt="Studio MetroDesk Retouching" />
-                                            </div>
-                                            <div class="info-button-main">
-                                                <div class="tooltip">
-                                                    {/* <span class="material-symbols-outlined"> info </span> */}
-                                                    <span class="tooltiptext">Tooltip text</span>
+                                            <div class="product-card-main__item">
+                                                <div class="item-head">
+                                                    <input type="radio" id="retouching" name="form" value="High-End-Retouching" class="" />
+                                                    <label for="retouching" className='text-xl ml-4'>High End Retouching</label>
+                                                </div>
+                                                <div class="item-image mt-6">
+                                                    <img src={retouching} alt="Studio MetroDesk Retouching" />
+                                                </div>
+                                                <div class="info-button-main">
+                                                    <div class="tooltip">
+                                                        {/* <span class="material-symbols-outlined"> info </span> */}
+                                                        <span class="tooltiptext">Tooltip text</span>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="product-card-main__item">
-                                            <div class="item-head">
-                                                <input type="radio" id="raster" name="form" value="Raster to Vector" class="" />
-                                                <label for="raster" className='text-xl ml-4'>Raster to Vector</label>
-                                            </div>
-                                            <div class="item-image mt-6">
-                                                <img src={vector} alt="Studio MetroDesk Raster to Vector Conversion" />
-                                            </div>
-                                            <div class="info-button-main">
-                                                <div class="tooltip">
-                                                    {/* <span class="material-symbols-outlined"> info </span> */}
-                                                    <span class="tooltiptext">Tooltip text</span>
+                                            <div class="product-card-main__item">
+                                                <div class="item-head">
+                                                    <input type="radio" id="raster" name="form" value="Raster-to-Vector" class="" />
+                                                    <label for="raster" className='text-xl ml-4'>Raster to Vector</label>
+                                                </div>
+                                                <div class="item-image mt-6">
+                                                    <img src={vector} alt="Studio MetroDesk Raster to Vector Conversion" />
+                                                </div>
+                                                <div class="info-button-main">
+                                                    <div class="tooltip">
+                                                        {/* <span class="material-symbols-outlined"> info </span> */}
+                                                        <span class="tooltiptext">Tooltip text</span>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="product-card-main__item">
-                                            <div class="item-head">
-                                                <input type="radio" id="Embroidery" name="form" value="Embroidery Digitizing" class="" />
-                                                <label for="Embroidery" className='text-xl ml-4'>Embroidery Digitizing</label>
-                                            </div>
-                                            <div class="item-image mt-6">
-                                                <img src={embroidery} alt="Studio MetroDesk Embroidery Design" />
-                                            </div>
-                                            <div class="info-button-main">
-                                                <div class="tooltip">
-                                                    {/* <span class="material-symbols-outlined"> info </span> */}
-                                                    <span class="tooltiptext">Tooltip text</span>
+                                            <div class="product-card-main__item">
+                                                <div class="item-head">
+                                                    <input type="radio" id="Embroidery" name="form" value="Embroidery-Digitizing" class="" />
+                                                    <label for="Embroidery" className='text-xl ml-4'>Embroidery Digitizing</label>
+                                                </div>
+                                                <div class="item-image mt-6">
+                                                    <img src={embroidery} alt="Studio MetroDesk Embroidery Design" />
+                                                </div>
+                                                <div class="info-button-main">
+                                                    <div class="tooltip">
+                                                        {/* <span class="material-symbols-outlined"> info </span> */}
+                                                        <span class="tooltiptext">Tooltip text</span>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="product-card-main__item">
-                                            <div class="item-head">
-                                                <input type="radio" id="Masking" name="form" value="Model Hair Masking" class="" />
-                                                <label for="Masking" className='text-xl ml-4'>Model Hair Masking</label>
-                                            </div>
-                                            <div class="item-image mt-6">
-                                                <img src={hairMasking} alt="Studio MetroDesk Model Hair Masking" />
-                                            </div>
-                                            <div class="info-button-main">
-                                                <div class="tooltip">
-                                                    {/* <span class="material-symbols-outlined"> info </span> */}
-                                                    <span class="tooltiptext">Tooltip text</span>
+                                            <div class="product-card-main__item">
+                                                <div class="item-head">
+                                                    <input type="radio" id="Masking" name="form" value="Model-HairMasking" class="" />
+                                                    <label for="Masking" className='text-xl ml-4'>Model Hair Masking</label>
+                                                </div>
+                                                <div class="item-image mt-6">
+                                                    <img src={hairMasking} alt="Studio MetroDesk Model Hair Masking" />
+                                                </div>
+                                                <div class="info-button-main">
+                                                    <div class="tooltip">
+                                                        {/* <span class="material-symbols-outlined"> info </span> */}
+                                                        <span class="tooltiptext">Tooltip text</span>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </form>
+                                        </form>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="main-button flex justify-end">
-                                <div></div>
-                                <div class="next-btn">
-                                    <button class="right-arrow btn" id="serveice-button" onclick="nextSlide(1)">
-                                        Next <FaAngleRight />
-                                    </button>
+                                <div class="main-button flex justify-end">
+                                    <div></div>
+                                    <div class="next-btn">
+                                        <button class="right-arrow btn" id="serveice-button" disabled={!clickedService} onClick={() => setNext("images")}>
+                                            Next <FaAngleRight />
+                                        </button>
+                                    </div>
                                 </div>
-                            </div>
 
+                            </div>
+                        }
+                        {
+                            clickedService && next==="images" &&  <div >
+                                <div>Upload Form is here</div>
+                                <button onClick={()=>setNext("contact")}>Next</button>
                         </div>
+
+                        }
+
+                        {
+                            clickedService && next==="contact" &&  <div >
+                                <div><FreeTrialContactForm/></div>
+                                <div className='mt-5 mb-5 flex justify-end'>
+                                    <button className='submitBtn flex items-center gap-3'>Submit <FaAngleRight/></button>
+                                </div>
+                        </div>
+
+                        }
 
 
                         {/* Contact Form */}
