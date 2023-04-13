@@ -12,11 +12,11 @@ const Navbar = () => {
     return (
         <div className='md:bg-white md:shadow-md'>
 
-            <div className='container mx-auto px-10 lg:px-48'>
-                <div class="header-container mx-auto flex justify-between w-full mb-hide dx-header">
+            <div className='container mx-auto px-10 2xl:px-48'>
+                <div class="header-container mx-auto flex xl:justify-between w-full mb-hide dx-header">
 
                     <nav class="relative text-gray-900 w-full">
-                        <div class="container mx-auto flex justify-around lg:mr-0 md:justify-between">
+                        <div class="container justify-center items-center 2xl:gap-8 mx-auto flex">
                             <div class="relative block py-2 px-0 md:py-2">
                                 <Link to="/">
                                     <img className='w-[100px] lg:w-full' src={logoIcon} alt="Studio MetroDesk Logo" />

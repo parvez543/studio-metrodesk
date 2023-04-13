@@ -8,14 +8,14 @@ import embroidery from "../../assets/images/card_5.jpg"
 import hairMasking from "../../assets/images/card_6.jpg"
 import { FaAngleRight } from 'react-icons/fa';
 import FreeTrialContactForm from '../FreeTrialContactForm/FreeTrialContactForm';
+import FreeTrialDashboard from '../FreeTrialDashboard/FreeTrialDashboard';
 
 
 const ChooseService = () => {
 
     const [next, setNext] = useState(null)
     const [clickedService, setclickedService] = useState("")
-    const [files, setFiles] = useState("")
-
+    
     const handleChange = (e) => {
         setclickedService(e.target.value)
     }
@@ -147,7 +147,7 @@ const ChooseService = () => {
                         }
                         {
                             clickedService && next==="images" &&  <div >
-                                <div>Upload Form is here</div>
+                                <div><FreeTrialDashboard/></div>
                                 <button onClick={()=>setNext("contact")}>Next</button>
                         </div>
 
@@ -155,7 +155,7 @@ const ChooseService = () => {
 
                         {
                             clickedService && next==="contact" &&  <div >
-                                <div><FreeTrialContactForm/></div>
+                                {/* <div><FreeTrialContactForm/></div> */}
                                 <div className='mt-5 mb-5 flex justify-end'>
                                     <button className='submitBtn flex items-center gap-3'>Submit <FaAngleRight/></button>
                                 </div>
