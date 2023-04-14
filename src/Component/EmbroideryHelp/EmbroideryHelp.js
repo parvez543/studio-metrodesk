@@ -4,7 +4,7 @@ import embroiderys from "../../data/emboriderys"
 
 const EmbroideryHelp = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
         {/* Text Container */}
         <div>
             <h2 className='secHead text-left mb-3 text-3xl md:text-4xl lg:text-5xl font-semibold'>Who We Help</h2>
