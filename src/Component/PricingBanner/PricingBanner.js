@@ -5,7 +5,7 @@ import priceImage from "../../assets/images/price_page/Hero_Image.png"
 const PricingBanner = () => {
     return (
         <div className='pricingBanner'>
-            <div className='container mx-auto px-10 lg:px-56 py-20'>
+            <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
                 <div className='grid lg:grid-cols-2 gap-8 justify-items-center'>
                     <div>
                         <h2 className='page-title text-4xl md:text-9xl font-bold color-text text-left'>Goal- oriented pricing that scales with you</h2>

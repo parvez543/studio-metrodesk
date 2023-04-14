@@ -17,14 +17,14 @@ const Navbar = () => {
 
                     <nav class="relative text-gray-900 w-full">
                         <div class="container justify-center items-center 2xl:gap-8 mx-auto flex">
-                            <div class="relative block py-2 px-0 md:py-2">
+                            <div class="relative block py-2 px-0 md:py-2 ">
                                 <Link to="/">
                                     <img className='w-[100px] lg:w-full' src={logoIcon} alt="Studio MetroDesk Logo" />
 
 
                                 </Link>
                             </div>
-                            <div className='flex items-center'>
+                            <div className='flex items-center ml-0 lg:ml-20 2xl:ml-0'>
                                 <div className='hidden xl:block'>
                                     <ul class="flex items-center">
 

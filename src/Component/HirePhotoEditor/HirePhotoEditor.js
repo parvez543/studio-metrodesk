@@ -5,7 +5,7 @@ import editor from "../../assets/images/price_page/hire_editor_image.png"
 
 const HirePhotoEditor = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
             <div className='grid lg:grid-cols-2 items-center justify-center'>
                 <div>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-8 text-[#7A80BD] text-left">Hire a Photo Editor From Just $3 per hour</h2>

@@ -83,12 +83,12 @@ const PriceCalculator = () => {
 
     return (
         <div className='py-20'>
-            <div className='container mx-auto px-10 lg:px-56'>
+            <div className='container mx-auto px-10 lg:px-20'>
                 <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-left text-[#7a80bd]'>Estimation Calculator Per Image Price</h2>
                 <div className='line px-4'></div>
             </div>
-            <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-10 lg:px-64 '>
-                <div className='mt-12 bg-white hover:bg-[#fdfddc] rounded-lg calculator lg:w-[300px]'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-10 lg:px-28 2xl:px-64 '>
+                <div className='mt-12 bg-white hover:bg-[#fdfddc] rounded-lg calculator 2xl:w-[300px]'>
                     <form onSubmit={handleOnClick}>
                         <div>
                             <h3 className='pricingHeader pt-10'>Clipping Path Service</h3>

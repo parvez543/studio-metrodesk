@@ -76,7 +76,7 @@ const GhostManequineCalculator = () => {
         // console.log(selectedOption * numberValue * shadows);
     }
     return (
-        <div className='mt-12 bg-white hover:bg-[#fdfddc] rounded-lg calculator lg:w-[300px]'>
+        <div className='mt-12 bg-white hover:bg-[#fdfddc] rounded-lg calculator 2xl:w-[300px]'>
             <form onSubmit={handleOnClick}>
                 <div>
                     <h3 className='pricingHeader pt-10'>Ghost Mannequine</h3>
