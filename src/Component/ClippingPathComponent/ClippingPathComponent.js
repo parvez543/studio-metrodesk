@@ -4,7 +4,7 @@ import poster from "../../assets/images/services/cliping-path-benar.jpg"
 
 const ClippingPathComponent = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
             <div className='flex flex-col lg:flex-row items-center justify-around gap-12'>
                 <div>
                     <h2 className='page-title text-4xl md:text-9xl font-bold color-text text-left'>Clipping Path Services</h2>

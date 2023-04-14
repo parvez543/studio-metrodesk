@@ -15,7 +15,7 @@ import extraHard2 from "../../assets/images/services/clipping-path-cost/Extra_Ha
 const HowMuchCost = () => {
     return (
         <div className='bg-[#fafafa]'>
-            <div className='container mx-auto px-10 lg:px-56 py-20'>
+            <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
                 {/* Basic Clipping Path */}
                 <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#7A80BD] text-left  mb-4'>How much do clipping path services cost?</h2>
                 <p className='text-xl text-gray-700 mb-3 text-left'>As you know, neither all images nor their clipping paths are the same. So the pricing for each project varies. We follow our standard pricing guidelines to make it transparent and open for our customers. The following section shows all our clipping path services and how the pricing differs according to complexity. Check the following example images to understand the complexity of every clipping path service we offer.</p>

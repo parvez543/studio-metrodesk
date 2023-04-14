@@ -9,7 +9,7 @@ import clippingPath6 from "../../assets/images/services/clipping-path-gallery/Cl
 
 const PerfectImageEditing = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
             <div>
                 <div>
                     <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-left text-[#7A80BD]'>Pixel-perfect Image Editing Portfolio For Photographers</h2>

@@ -42,11 +42,11 @@ const Navbar = () => {
 
                                         <li class="hoverable m-item">
 
-                                            <Link to="/services" class="text-black link-hov relative block md:py-6 md:px-2">SERVICES</Link>
+                                            <Link class="text-black link-hov relative block md:py-6 md:px-2">SERVICES</Link>
 
                                             <div class="p-6  mega-menu mb-16 sm:mb-0 shadow-md bg-gray-100">
                                                 <div class="text-xl mega-sub font-semibold border-b border-gray-300 pb-4 w-full">
-                                                    <Link to="/services"><p>ALL PHOTO EDITING SERVICES</p></Link>
+                                                    <Link><p>ALL PHOTO EDITING SERVICES</p></Link>
                                                 </div >
                                                 <div class="container mx-auto w-full flex   space-x-3">
 
