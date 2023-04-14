@@ -15,21 +15,21 @@ import extraComplex2 from "../../assets/images/services/vector-conversion/easy-v
 const VectorConversionCost = () => {
     return (
         <div className='bg-[#fafafa]'>
-            <div className='container mx-auto px-10 lg:px-56 py-20'>
+            <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
                 {/* Complexity 1 – $3 per image */}
                 <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#7A80BD] text-left'>How much do vector conversion services cost?</h2>
                 <p className='text-xl text-gray-700 mb-3 text-left'>Vector conversion projects can be as simple as a single-color logo and as complex as a detailed piece of artwork with dozens of colors — and the price is set to match the level of sophistication and work involved. Every image is different, but we follow standard pricing guidelines to ensure your rate is always transparent, even if you're working with a different designer. Here's an overview of how we price vector conversion projects:</p>
-                <div className='grid grid-cols-1 gap-6 justify-between lg:grid-cols-2'>
+                <div className='grid grid-cols-1 gap-12 justify-between lg:grid-cols-2'>
                     <div>
                         <h2 className='text-2xl my-6 text-left text-[#7A80BD] font-bold'>Complexity 1 – $3 per image</h2>
                         <p className='text-xl text-gray-700 mb-3 text-left'>These vector conversions involve simple shapes, often with single objects, straight lines, one or two colors, or less text.
                         </p>
                         <p className='text-xl text-gray-700 mb-3 text-left font-bold'>Perfect For:</p>
-                        <div className='flex gap-3 items-start justify-start lg:w-[650px]'>
+                        <div className='flex gap-3 items-start justify-start'>
                             <FaCircle className='mt-[3px] circle' />
                             <p className='text-left text-xl'>Simple logos</p>
                         </div>
-                        <div className='flex gap-3 items-start justify-start mt-4 lg:w-[650px]'>
+                        <div className='flex gap-3 items-start justify-start mt-4'>
                             <FaCircle className='mt-[3px] circle' />
                             <p className='text-left text-xl'>Icons</p>
                         </div>
