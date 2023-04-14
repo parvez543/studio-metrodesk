@@ -5,10 +5,10 @@ import photoEditing from "../../assets/images/services/ghost-mannequin/WhatAre_G
 
 const WhatIsGManequine = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
-            <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#7A80BD] text-left  mb-4'>What is ghost mannequin?</h2>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
+            <h2 className='text-3xl sm:text-4xl md:text-5xl font-semibold text-[#7A80BD] text-left  mb-4'>What is ghost mannequin?</h2>
             <p className='text-xl text-gray-700 mb-3 text-left'>The "ghost mannequin" effect, also known as the "invisible mannequin," or "3D mannequin," is a powerful post-production technique for apparel product photography that solves product showcasing problems. The ghost mannequin effect allows you to take multiple photos of a product on a model or mannequin, and then combine the photos to remove the model or mannequin in post-production. The result is a realistic picture that keeps the focus firmly on your product.</p>
-            <div className='flex flex-col-reverse lg:flex-row gap-10 items-center'>
+            <div className='grid lg:grid-cols-2 gap-10 items-center'>
                 <div>
                     <h2 className='text-xl text-gray-900 my-6 text-left'>When ghost mannequin is a great choice:</h2>
                     <div className='flex gap-3 items-start justify-start lg:w-[650px]'>
