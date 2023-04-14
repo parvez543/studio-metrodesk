@@ -5,9 +5,9 @@ import ghost from "../../assets/images/services/ghost-mannequin/ghostmannequin_p
 const GManequineProfessionals = () => {
     return (
         <div className='bg-[#fafafa]'>
-        <div className='container mx-auto px-10 lg:px-48 py-20'>
-            <div className='grid lg:grid-cols-2'>
-                <div className='lg:w-[450px] lg:ml-10 flex justify-center items-center mb-6 lg:mb-0'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-48 py-20'>
+            <div className='grid lg:grid-cols-2 gap-6'>
+                <div className='flex justify-center items-center mb-6 lg:mb-0'>
                     <img src={ghost} className="" alt="Studio MetroDesk Product Photography" />
                 </div>
                 <div>
