@@ -8,7 +8,7 @@ import mclipping6 from "../../assets/images/services/ghost-mannequin/ghost-manne
 
 const GManequinePortfolio = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
             <div>
                 <div>
                     <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-left text-[#7A80BD]'>Pixel-perfect ghost mannequin portfolio</h2>
