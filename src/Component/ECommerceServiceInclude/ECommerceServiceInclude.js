@@ -7,7 +7,7 @@ const ECommerceServiceInclude = () => {
         <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
         <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#7A80BD] text-left'>What Does Ecommerce Photo Editing Include?</h2>   
         <p className='text-lg text-gray-700 mb-3 text-left'>The main things in ecommerce image editing are color correction and background removal. To achieve desired results, you also need proper image cropping, brightness and contrast adjustment, tags removal, noise reduction, masking, clipping path, margin setting, watermarking, and more.</p> 
-    <div className='grid lg:grid gap-10 items-center'>
+    <div className='grid lg:grid-cols-2 gap-10 items-center'>
         <div>
             <h2 className='text-xl text-gray-900 my-6 text-left'>Ecommerce product photo editing services include:</h2>
             <div className='flex gap-3 items-start justify-start'>
