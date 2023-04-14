@@ -4,8 +4,8 @@ import poster from "../../assets/images/hiw/howitworks_herro.jpg"
 
 const ProcessComponent = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
-        <div className='flex flex-col lg:flex-row items-center justify-around gap-12'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
+        <div className='grid lg:grid-cols-2 items-center justify-around gap-12'>
             <div>
                 <h2 className='page-title text-4xl md:text-9xl font-bold color-text text-left'>Take A Sneak Peek Into How Our Work Process Looks Like</h2>
                 

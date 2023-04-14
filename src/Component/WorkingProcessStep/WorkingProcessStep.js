@@ -11,7 +11,7 @@ const WorkingProcessStep = () => {
     return (
         <div className='bg-[#F5F6FF]'>
             <div className='stepBg'>
-                <div className='container mx-auto px-10 lg:px-56 py-20'>
+                <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
                     {/* Step 1 */}
                     <div className='grid grid-cols-1 lg:grid-cols-2 text-left items-center stepContainer'>
                         <div className='w-full'>
@@ -56,8 +56,8 @@ const WorkingProcessStep = () => {
                             <img className='lg:w-[500px]' src={step4} alt="Studio MetroDesk Working Process Step 1" />
                         </div>
                     </div>
-                     {/* Step 5 */}
-                     <div className='grid grid-cols-1 lg:grid-cols-2 text-left items-center mt-10 stepContainer'>
+                    {/* Step 5 */}
+                    <div className='grid grid-cols-1 lg:grid-cols-2 text-left items-center mt-10 stepContainer'>
                         <div className='w-full'>
                             <img className='lg:w-[500px]' src={step5} alt="Studio MetroDesk Working Process Step 1" />
                         </div>
@@ -67,17 +67,19 @@ const WorkingProcessStep = () => {
                             <p className='text-gray-700 text-lg text-left'>Our quality control team will double-check every image before sending you the finished files. Once your photos are perfectly ready, we'll email you a link to download the files. You get all your edits done with <span className='markText'>100% satisfaction guarantee.</span></p>
                         </div>
                     </div>
-                    <div className='flex items-center justify-center gap-2 mt-8'>
-                <div>
-                    <FaComments className='text-2xl'/>
-                </div>
-                <div className='flex items-center gap-1'>
-                    <p className='text-xl'>Need any specialized help? <span className='text-lg text-blue-500 hover:text-blue-800 cursor-pointer'>Talk to our editing specialists</span> </p>
-                    <div>
-                        <FaAngleRight className='text-lg  text-blue-500 hover:text-blue-800'/>
+                    <div className='block mx-auto'>
+                        <div className='flex items-center justify-center gap-2 mt-8'>
+                            <div>
+                                <FaComments className='text-2xl' />
+                            </div>
+                            <div className='flex items-center gap-1'>
+                                <p className='text-xl'>Need any specialized help? <span className='text-lg text-blue-500 hover:text-blue-800 cursor-pointer'>Talk to our editing specialists</span> </p>
+                                <div>
+                                    <FaAngleRight className='text-lg  text-blue-500 hover:text-blue-800' />
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
                 </div>
             </div>
         </div>
