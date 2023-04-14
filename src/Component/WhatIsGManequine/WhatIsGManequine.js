@@ -11,19 +11,19 @@ const WhatIsGManequine = () => {
             <div className='grid lg:grid-cols-2 gap-10 items-center'>
                 <div>
                     <h2 className='text-xl text-gray-900 my-6 text-left'>When ghost mannequin is a great choice:</h2>
-                    <div className='flex gap-3 items-start justify-start lg:w-[650px]'>
+                    <div className='flex gap-3 items-start justify-start 2xl:w-[650px]'>
                         <FaCircle className='mt-[3px] circle' />
                         <p className='text-left text-xl'>If you want to avoid the expense and challenges of hiring live models</p>
                     </div>
-                    <div className='flex gap-3 items-start justify-start mt-4 lg:w-[650px]'>
+                    <div className='flex gap-3 items-start justify-start mt-4 2xl:w-[650px]'>
                         <FaCircle className='mt-[3px] circle' />
                         <p className='text-left text-xl'>If you want to add life, texture and volume to apparel and accessories products</p>
                     </div>
-                    <div className='flex gap-3 items-start justify-start mt-4 lg:w-[650px]'>
+                    <div className='flex gap-3 items-start justify-start mt-4 2xl:w-[650px]'>
                         <FaCircle className='mt-[3px] circle' />
                         <p className='text-left text-xl'>If you want to display both front and back or a 360-degree view of your products</p>
                     </div>
-                    <div className='flex gap-3 items-start justify-start mt-4 lg:w-[650px]'>
+                    <div className='flex gap-3 items-start justify-start mt-4 2xl:w-[650px]'>
                         <FaCircle className='mt-[3px] circle' />
                         <p className='text-left text-xl'>To showcase the inside of the garments, brand logo and labels on the inside tags</p>
                     </div>
