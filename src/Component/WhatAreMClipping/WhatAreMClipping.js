@@ -4,10 +4,10 @@ import photoEditing from "../../assets/images/services/WhatAre_Multiple_path_ser
 
 const WhatAreMClipping = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
             <h2 className='text-3xl sm:text-4xl md:text-5xl font-semibold text-[#7A80BD] text-left  mb-4'>What are multi-clipping path services?</h2>
             <p className='text-xl text-gray-700 mb-3 text-left'>Multi-clipping path is an advanced process of applying multiple clipping layers in a single image and the way to isolate every element in a photo. Once every part of the image is separated in Photoshop, it can be individually edited, recolored, or cut out. This image editing technique helps you separate colors, resize objects, multiple fills, change opacity, modify colors etc. It also helps remove background or extract a product image from a messy background.</p>
-            <div className='flex flex-col-reverse lg:flex-row gap-10 items-center'>
+            <div className='grid lg:grid-cols-2 gap-10 items-center'>
                 <div>
                     <h2 className='text-xl text-gray-900 my-6 text-left'>Clipping path and multi-clipping path are also known as:</h2>
                     <div className='flex gap-3 items-start justify-start lg:w-[650px]'>
