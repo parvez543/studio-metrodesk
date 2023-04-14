@@ -5,8 +5,8 @@ import banner from "../../assets/images/services/vector-conversion-service.jpg"
 
 const VectorConversionBanner = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
-        <div className='flex flex-col lg:flex-row items-center justify-around gap-12'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
+        <div className='grid lg:grid-cols-2 items-center justify-around gap-12'>
             <div>
                 <h2 className='page-title text-4xl md:text-9xl font-bold color-text text-left'>Vector Conversion Services</h2>
                 <p className='font-medium text-xl md:text-2xl text-gray-900 mt-6 mb-1 text-left'>We convert raster to vector that you can print in any size while saving more time and money.</p>
