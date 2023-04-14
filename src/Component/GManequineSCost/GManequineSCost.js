@@ -8,7 +8,7 @@ import mediumPaths from "../../assets/images/services/ghost-mannequin/ghost-mann
 const GManequineSCost = () => {
     return (
         <div className='bg-[#fafafa]'>
-            <div className='container mx-auto px-10 lg:px-56 py-20'>
+            <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
                 {/*  Simple Ghost Mannequin – $1.5 per image */}
                 <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#7A80BD] text-left'>How much do ghost mannequin services cost?</h2>
                 <p className='text-xl text-gray-700 mb-3 text-left'>As you know, neither all images nor their ghost mannequin edits are the same. So the pricing for each project varies. We follow our standard pricing guidelines to make it transparent and open for our customers. The following section shows all our ghost mannequin editing services and how the pricing differs according to complexity. Check the following example images to understand the complexity of every ghost mannequin service we offer.</p>
