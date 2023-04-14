@@ -6,8 +6,8 @@ import poster from "../../assets/images/parfect-for-photographer-poster.jpg"
 
 const PhotographersComponent = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
-            <div className='flex flex-col lg:flex-row items-center justify-around gap-12'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
+            <div className='grid lg:grid-cols-2 items-center justify-around gap-12'>
                 <div>
                     <h2 className='page-title text-4xl md:text-9xl font-bold color-text text-left'>Photo Editing Services For Photographers</h2>
                     <p className='font-semibold text-xl md:text-2xl text-gray-900 mt-6 mb-1 text-left'>We made outsourcing editing for photographers effortless, affordable and fun.</p>
