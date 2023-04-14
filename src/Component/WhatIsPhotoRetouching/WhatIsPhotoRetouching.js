@@ -5,7 +5,7 @@ import retouchBanner from "../../assets/images/services/retouching/WhatAre_Retou
 
 const WhatIsPhotoRetouching = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
             <h2 className='text-3xl sm:text-4xl md:text-5xl font-semibold text-[#7A80BD] text-left  mb-4'>What are photo retouching services?</h2>
             <div className='grid  lg:grid-cols-2 gap-12 mt-6 lg:mt-16'>
                 <div>

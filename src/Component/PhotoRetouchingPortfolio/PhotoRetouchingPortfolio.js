@@ -14,7 +14,7 @@ import retouchting6 from "../../assets/images/services/retouching/retouching-ser
 
 const PhotoRetouchingPortfolio = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
             <div>
                 <div>
                     <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-left text-[#7A80BD]'>Pixel-perfect photo retouching portfolio</h2>
