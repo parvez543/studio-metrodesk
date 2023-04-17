@@ -1,11 +1,97 @@
 .ulItem li a{
     font-size: 14px;
 }
+
+.loginBtn{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 8px;
+
+width: 70px;
+height: 40px;
+
+/* Base/White */
+
+background: #FFFFFF;
+/* Gray/300 */
+
+border: 1px solid #D0D5DD;
+/* Shadow/xs */
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.getStartBtn{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 8px;
+
+color: white;
+height: 40px;
+
+/* Primary/600 */
+
+background: #155EEF;
+/* Primary/600 */
+
+border: 1px solid #155EEF;
+/* Shadow/xs */
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
 .freeTrailBtn{
-   border: 2px solid rgb(4, 4, 109);
-   border-radius: 5px;
-   transition: 0.1s ease-in-out;
-   cursor: pointer;
+  
+  height: 20px;
+  
+  /* Text sm/Semibold */
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  
+  
+  /* Gray/600 */
+  
+  color: #475467;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 .freeTrailBtn:hover{
     background-color: rgb(4, 4, 109);
