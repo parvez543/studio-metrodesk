@@ -4,8 +4,8 @@ import poster from "../../assets/images/parfect-for-g-brand.jpg"
 
 const EditingServiceForBrands = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
-        <div className='flex flex-col lg:flex-row items-center justify-around gap-12'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
+        <div className='grid lg:grid-cols-2 items-center justify-around gap-12'>
             <div>
                 <h2 className='page-title text-4xl md:text-9xl font-bold color-text text-left'>Photo Editing Services For Brands</h2>
                 <p className='font-semibold text-xl md:text-2xl text-gray-900 mt-6 mb-1 text-left'>Our team strictly follows the brand guidelines and makes edits consistent across the entire photo editing.</p>

@@ -18,7 +18,7 @@ const AllTestimonials = () => {
     const slice = testimonials.slice(0, noOfElement)
 
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
             <div>
                 {
                     slice?.map(testimonial => <AllTestimonialCard key={testimonial.id} testimonial={testimonial}/>)

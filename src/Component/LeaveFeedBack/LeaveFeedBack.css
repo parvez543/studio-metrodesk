@@ -1,3 +1,8 @@
 
 
 /* w-full py-3 px-3  border-l border-indigo-400 bg-[#F2F2F2] */
+
+.textArea{
+    height: 240px;
+    background: #F2F2F2
+}
