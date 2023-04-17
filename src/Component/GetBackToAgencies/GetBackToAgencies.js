@@ -5,8 +5,8 @@ import productPhotography from "../../assets/images/Leaveittotheexperts.jpg"
 const GetBackToAgencies = () => {
     return (
         <div className='bg-[#fafafa]'>
-        <div className='container mx-auto px-10 lg:px-48 py-20'>
-            <div className='grid lg:grid-cols-2'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-48 py-20'>
+            <div className='grid lg:grid-cols-2 justify-center items-center'>
                 <div className='lg:w-[450px] lg:ml-10 flex justify-center items-center mb-6 lg:mb-0'>
                     <img src={productPhotography} className="" alt="Studio MetroDesk Product Photography"/>
                 </div>
