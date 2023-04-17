@@ -5,7 +5,7 @@ import questionmark from "../../assets/images/star-what.png"
 const WantToBeStar = () => {
     return (
         <div className='starContainer'>
-            <div className='container mx-auto px-10 lg:px-56 py-20'>
+            <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
                 <div className='flex flex-col-reverse lg:flex-row items-center justify-between'>
                     <div>
                         <h2 className='font-semibold text-3xl md:text-5xl text-[#7A80BD] text-left'>Want to be a star !</h2>

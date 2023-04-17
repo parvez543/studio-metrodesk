@@ -7,7 +7,7 @@
 .careerHeading{
     /* display: flex; */
     flex-direction: column;
-    height: 40vh;
+    
     justify-content: center;
     align-items: center;
 }

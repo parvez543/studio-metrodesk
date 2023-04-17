@@ -5,7 +5,7 @@ import DataAndSequrityCard from './DataAndSequrityCard';
 
 const DataAndSequrity = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 pt-8 pb-16'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 pt-8 pb-16'>
         <div>
             <h2 className='text-3xl sm:text-4xl md:text-5xl font-semibold text-left text-[#7A80BD] mb-6'>Data And Sequrity</h2>
         </div>

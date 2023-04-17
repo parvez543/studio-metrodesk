@@ -5,7 +5,7 @@ import "./WeAreHiring.css"
 
 const WeAreHiring = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
             <div>
                 <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#7A80BD]'>We Are Hiring</h2>
                 <p className='text-lg text-gray-600 max-w-3xl mx-auto'>We're on the lookout for extraordinary talents. If you think you're an ideal candidate, please send your biodata and mention the position you're applying for.</p>
