@@ -5,7 +5,7 @@ import quotation from "../../assets/images/quotation.png"
 
 const OurNumbers = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-56 py-20'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 py-20'>
             <h2 className='mb-3 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#7A80BD] text-left'>Our Numbers</h2>
             <p className='text-left text-xl text-gray-700'>Let us look after the edits, so you can get back to the work that needs you.</p>
 
