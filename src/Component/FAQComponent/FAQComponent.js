@@ -19,11 +19,13 @@ const FAQComponent = () => {
                    </div>
                 </div>
             </div>
+          <div className='text-left'>
             <GettingStartFAQ/>
             <PricingFAQ/>
             <ImageEditingFAQ/>
             <EmbroideryFAQ/>
             <DataAndSequrity/>
+          </div>
         </div>
     );
 };
