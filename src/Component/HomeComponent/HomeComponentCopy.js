@@ -15,7 +15,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 const HomeComponentCopy = () => {   
 
    const [text] = useTypewriter({
-      words: ['retouching', 'photo editing', 'clipping path', 'ghost mannequin', 'deepetching'],
+      words: ['retouching', 'multi-clipping', 'clipping path', 'ghost mannequin', 'deep-etching'],
       loop: 1000,
       onLoopDone: () => console.log(`loop completed after 3 runs.`)
    })
@@ -23,8 +23,8 @@ const HomeComponentCopy = () => {
       <div className='container mx-auto'>
          <div className='mt-[20px] lg:mt-[48px] sm:px-12 lg:px-0'>
             <div>
-               <h2 className='homeContainer text-[30px] lg:text-[60px]'>Studio Metrodesk</h2>
-               <h2 className='homeContainer text-[30px] lg:text-[60px] px-5 lg:px-0'>We make <span className='homeText'> <span>{text}</span><Cursor cursorColor='blue' /></span>easy!</h2>
+               <h2 className='homeContainer text-[30px] lg:text-[60px] px-5 lg:px-0'>Experience Flawless </h2>
+               <h2 className='homeContainer text-[30px] lg:text-[60px]'><span className='homeText'> <span>{text}</span><Cursor cursorColor='blue' /></span></h2>
                <p className='mt-[16px] homeParagraph px-5 lg:px-0 text-[14px] lg:text-[16px]'>Photo Editing Solutions for Fashion, Apparel, E-commerce Businesses and Pro-<br /> Photographers. Our 100+ pro photo editors work 24/7 to provide you with the <br /> most personalized solutions in the market</p>
                <div className='flex flex-col md:flex-row justify-center items-center gap-[8px] lg:gap-[16px]'>
                   <div><button className='headerBtn block mx-auto'>Try Us Free</button></div>

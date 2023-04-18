@@ -6,19 +6,19 @@ import NavMobile from './NavMobile/NavMobile';
 
 const Navbar = () => {
     // ----It is the state to open the sidebar----
-    const [show, setShow] = useState(false)
+    const [show, setShow] = useState(true)
 
     // console.log(show);
     return (
         <div className='md:bg-white md:shadow-md'>
             <div className=''>
 
-                <div className='container mx-auto px-10 2xl:px-48'>
-                    <div class="header-container mx-auto flex xl:justify-between w-full mb-hide dx-header">
+                <div className='container mx-auto px-10'>
+                    <div class="header-container mx-auto flex justify-center w-full mb-hide dx-header">
 
                         <nav class="relative text-gray-900 w-full">
-                            <div class="container 2xl:gap-8 mx-auto flex justify-start">
-                                <div class="relative block py-2 px-0 md:py-2 ">
+                            <div class="container 2xl:gap-8 mx-auto flex lg:justify-center">
+                                <div class="relative block py-2 px-0 md:py-2 2xl:mr-[150px]">
                                     <Link to="/">
                                         <img className='w-[150px] lg:w-full' src={logoIcon} alt="Studio MetroDesk Logo" />
 
@@ -273,7 +273,7 @@ const Navbar = () => {
                                                             </ul>
                                                         </div>
                                                         <div className='vl'></div>
-                                                        <div className='px-10'>
+                                                        <div className=''>
                                                             <ul class="w-full mega-menu-box">
 
                                                                 <div class=" text-sm mega-sub font-semibold border-b border-gray-300 pb-4">
@@ -404,7 +404,7 @@ const Navbar = () => {
 
                                 </div>
                                 <div className='hidden lg:block'>
-                                    <div className='flex justify-end items-center mt-[8px]'>
+                                    <div className='flex justify-end items-center mt-[8px] 2xl:ml-[100px]'>
                                         <Link to="/freetrial" class="text-White color-blue-900 ml-3 freeTrailBtn py-2 px-4 menu-btn-ot mr-2">Get A Quote</Link>
                                         <Link class="text-White color-blue-900 loginBtn py-2 px-4 menu-btn-ot mr-2 mt-[12px]">Login</Link>
                                         <Link class="text-White color-blue-900 getStartBtn py-2 px-4 menu-btn-ot mr-2 mt-[12px]">Get Started</Link>
