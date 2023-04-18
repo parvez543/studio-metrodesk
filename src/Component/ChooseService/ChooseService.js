@@ -7,7 +7,6 @@ import vector from "../../assets/images/card_4.jpg"
 import embroidery from "../../assets/images/card_5.jpg"
 import hairMasking from "../../assets/images/card_6.jpg"
 import { FaAngleRight } from 'react-icons/fa';
-import FreeTrialContactForm from '../FreeTrialContactForm/FreeTrialContactForm';
 import FreeTrialDashboard from '../FreeTrialDashboard/FreeTrialDashboard';
 
 
