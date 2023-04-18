@@ -217,12 +217,18 @@ flex-grow: 0;
   color:#7A80BD;
 }
 .mg-2{
-  max-width:360px;
+  max-width:600px;
   right:unset;
   left:unset;
 }
 .mx-220{
   max-width:220px;
+}
+.vl{
+  border-left: 2px solid #7A80BD;
+  height: 300px;
+  display: block;
+  margin: auto;
 }
 .mx-220 a:hover{
   color:#7a80bd;

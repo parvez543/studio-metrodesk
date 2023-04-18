@@ -39,7 +39,7 @@ const NavMobile = () => {
         };
     
     return (
-        <div className='block lg:hidden'>
+        <div className='block lg:hidden mt-[10px]'>
         <button
           onClick={toggleDrawer}
           className="text-4xl font-bold hover:text-gray-400 ease-in-out duration-300 w-[40px] flex justify-center items-center hover:border-r-4 hover:border-black"
@@ -65,20 +65,20 @@ const NavMobile = () => {
             <div className="w-full my-10">
               <div className="flex flex-col items-start text-lg font-semibold gap-6 w-full h-full pl-8">
                 <Link
-                  to="/"
-                  onClick={() => setIsOpen(false)}
-                  className="uppercase hover:text-gray-400 ease-in-out duration-300"
-                >
-                  Home
-                </Link>
-  
-                <Link
                   to="/process"
                   onClick={() => setIsOpen(false)}
                   className="uppercase hover:text-gray-400 ease-in-out duration-300"
                 >
-                  Process
+                  How It Works
                 </Link>
+  
+                {/* <Link
+                  to="/"
+                  onClick={() => setIsOpen(false)}
+                  className="uppercase hover:text-gray-400 ease-in-out duration-300"
+                >
+                  Our Services
+                </Link> */}
   
                 <div className="flex gap-2">
                   <Link
@@ -109,6 +109,34 @@ const NavMobile = () => {
                               class="uppercase hover:text-gray-400 ease-in-out duration-300 text-base"
                             >
                               Multi Clipping Path
+                            </Link>
+                            <Link
+                              to="/ghostmannequine"
+                              onClick={() => setIsOpen(false)}
+                              class="uppercase hover:text-gray-400 ease-in-out duration-300 text-base"
+                            >
+                             Ghost Mannequin
+                            </Link>
+                            <Link
+                              to="/photoretouching"
+                              onClick={() => setIsOpen(false)}
+                              class="uppercase hover:text-gray-400 ease-in-out duration-300 text-base"
+                            >
+                             Photo Retouching
+                            </Link>
+                            <Link
+                              to="/vectorconversion"
+                              onClick={() => setIsOpen(false)}
+                              class="uppercase hover:text-gray-400 ease-in-out duration-300 text-base"
+                            >
+                             Vector Conversion
+                            </Link>
+                            <Link
+                              to="/embroidery"
+                              onClick={() => setIsOpen(false)}
+                              class="uppercase hover:text-gray-400 ease-in-out duration-300 text-base"
+                            >
+                             Embroidery Designing
                             </Link>
                           </div>
                         </div>

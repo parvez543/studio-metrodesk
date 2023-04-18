@@ -21,38 +21,38 @@ const HomeComponentCopy = () => {
    })
    return (
       <div className='container mx-auto'>
-         <div className='mt-[48px]'>
+         <div className='mt-[20px] lg:mt-[48px] sm:px-12 lg:px-0'>
             <div>
-               <h2 className='homeContainer'>Studio Metrodesk</h2>
-               <h2 className='homeContainer'>We make <span className='homeText'> <span>{text}</span><Cursor cursorColor='blue' /></span>easy!</h2>
-               <p className='mt-[16px] homeParagraph'>Photo Editing Solutions for Fashion, Apparel, E-commerce Businesses and Pro-<br /> Photographers. Our 100+ pro photo editors work 24/7 to provide you with the <br /> most personalized solutions in the market</p>
-               <div className='flex justify-center items-center gap-[16px]'>
+               <h2 className='homeContainer text-[30px] lg:text-[60px]'>Studio Metrodesk</h2>
+               <h2 className='homeContainer text-[30px] lg:text-[60px] px-5 lg:px-0'>We make <span className='homeText'> <span>{text}</span><Cursor cursorColor='blue' /></span>easy!</h2>
+               <p className='mt-[16px] homeParagraph px-5 lg:px-0 text-[14px] lg:text-[16px]'>Photo Editing Solutions for Fashion, Apparel, E-commerce Businesses and Pro-<br /> Photographers. Our 100+ pro photo editors work 24/7 to provide you with the <br /> most personalized solutions in the market</p>
+               <div className='flex flex-col md:flex-row justify-center items-center gap-[8px] lg:gap-[16px]'>
                   <div><button className='headerBtn block mx-auto'>Try Us Free</button></div>
-                  <div><button className='headerQuote block mx-auto'>Get A Quote</button></div>
+                  <div><button className='headerQuote block mx-auto md:mt-[24px]'>Get A Quote</button></div>
                </div>
                {/* Image Section */}
                <div className='homeImageContainer'>
-                  <div className='grid lg:grid-cols-5 gap-[16px]'>
+                  <div className='grid lg:grid-cols-5 lg:gap-[16px] justify-items-center mt-[20px] lg:mt-0'>
                      {/* Image 1 */}
-                     <div className='homeImgContainer'>
-                        <img className='mb-[16px]' src={watch} alt="This is Watch" />
-                        <img src={bag} alt="This is Bag" />
+                     <div className='homeImgContainer flex flex-row lg:flex-col gap-8 lg:gap-0 px-6 lg:px-0 mb-4 lg:mb-0'>
+                       <div className='lg:h[268px] lg:w-[268px]'> <img className='lg:mb-[16px] ' src={watch} alt="This is Watch" /></div>
+                       <div className='lg:h[268px] lg:w-[268px]'> <img src={bag} alt="This is Bag"/></div>
                      </div>
-                     <div className='homeImgContainer mt-[25px]'>
-                        <img src={chair} className='mb-[16px]' alt="This is Watch" />
-                        <img src={shoes} alt="This is Bag" />
+                     <div className='homeImgContainer lg:mt-[25px] flex flex-row lg:flex-col gap-8 lg:gap-0 px-6 lg:px-0'>
+                      <div className='lg:h[268px] lg:w-[268px]'><img src={chair} className='mb-[16px]' alt="This is Watch" /></div>
+                       <div className='lg:h[268px] lg:w-[268px]'><img src={shoes} alt="This is Bag" /></div>
                      </div>
-                     <div className='homeImgContainer mt-[67px]'>
-                        <img src={tshirt} className='mb-[16px]' alt="This is T-Shirt" />
-                        <img src={newWatch} className='mb-16' alt="This is Watch" />
+                     <div className='homeImgContainer lg:mt-[67px] flex flex-row lg:flex-col gap-8 lg:gap-0 px-6 lg:px-0 mb-4 lg:mb-0'>
+                        <div className='lg:h[268px] lg:w-[268px]'> <img src={tshirt} className='lg:mb-[16px]' alt="This is T-Shirt" /></div>
+                        <div className='lg:h[268px] lg:w-[268px]'><img src={newWatch} className='lg:mb-16' alt="This is Watch" /></div>
                      </div>
-                     <div className='homeImgContainer mt-[25px]'>
-                        <img src={children} className='mb-[16px]' alt="This is Children" />
-                        <img src={women} alt="This is Women" />
+                     <div className='homeImgContainer lg:mt-[25px] flex flex-row lg:flex-col gap-8 lg:gap-0 px-6 lg:px-0 mb-4 lg:mb-0'>
+                     <div className='lg:h[268px] lg:w-[268px]'><img src={children} className='mb-[16px]' alt="This is Children" /></div>
+                     <div className='lg:h[268px] lg:w-[268px]'><img src={women} alt="This is Women" /></div>
                      </div>
-                     <div className='homeImgContainer'>
-                        <img src={sunglass} className='mb-[16px]' alt="This is Sunglass" />
-                        <img src={jewellery} alt="This is Jewellery" />
+                     <div className='homeImgContainer flex flex-row lg:flex-col gap-8 lg:gap-0 px-6 lg:px-0 mb-4 lg:mb-0'>
+                       <div className='lg:h[268px] lg:w-[268px]'> <img src={sunglass} className='mb-[16px]' alt="This is Sunglass" /></div>
+                       <div className='lg:h[268px] lg:w-[268px]'> <img src={jewellery} alt="This is Jewellery" /></div>
                      </div>
                   </div>
                </div>
