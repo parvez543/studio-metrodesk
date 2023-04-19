@@ -93,10 +93,10 @@ flex-grow: 0;
   order: 1;
   flex-grow: 0;
 }
-.freeTrailBtn:hover{
+/* .freeTrailBtn:hover{
     background-color: rgb(4, 4, 109);
     color: white;
- }
+ } */
  .getAQuote{
     background-color: rgb(4, 4, 109);
     color: white;

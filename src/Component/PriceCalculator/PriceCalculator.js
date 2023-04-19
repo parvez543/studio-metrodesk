@@ -9,13 +9,16 @@ const PriceCalculator = () => {
 
     const [value, setValue] = useState(0.00)
 
-    const handleOnClick = (event) => {
+    const handleOnChange = (event) => {
         event.preventDefault()
         const form = event.target
         const numberValue = parseInt(form.number.value)
         const selectedOption = form.option.value
         const shadows = parseFloat(form.shadows.value)
         const hours = parseInt(form.hours.value)
+
+       
+
 
         if (hours === 20) {
             console.log((numberValue * selectedOption) + (numberValue * shadows) * 1);
@@ -81,6 +84,8 @@ const PriceCalculator = () => {
         // console.log(selectedOption * numberValue * shadows);
     }
 
+    
+
     return (
         <div className='py-20'>
             <div className='container mx-auto px-10 lg:px-20'>
@@ -89,7 +94,7 @@ const PriceCalculator = () => {
             </div>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-10 lg:px-28 2xl:px-64 '>
                 <div className='mt-12 bg-white hover:bg-[#fdfddc] rounded-lg calculator 2xl:w-[300px]'>
-                    <form onSubmit={handleOnClick}>
+                    <form onSubmit={handleOnChange}>
                         <div>
                             <h3 className='pricingHeader pt-10'>Clipping Path Service</h3>
                             <p className='text-gray-400 mb-4'>Hand Made Service</p>
@@ -103,7 +108,7 @@ const PriceCalculator = () => {
                             <p className='mb-4'>per image price</p>
                         </div>
                         <div>
-                            <input type="number" className='input input-bordered w-[239px] mb-4' name="number"></input> <br />
+                            <input type="number" min="0" className='input input-bordered w-[239px] mb-4' name="number"></input> <br />
                             <div className='mb-4'>
                                 <select name="option" className="select  input input-bordered w-[239px]">
                                     <option disabled selected>Choose Price</option>
@@ -141,7 +146,7 @@ const PriceCalculator = () => {
                         <p className='text-blue-900 text-xl mt-3'> TOTAL QUOTATION</p>
                          <p className='text-blue-700 text-4xl font-semibold mt-3'>${value}</p>
                         <div>
-                            <button type="submit" className='tryBtn '>Try Us Free</button>
+                            <button type="submit" className='tryBtn'>Try Us Free</button>
                         </div>
                     </form>
                 </div>

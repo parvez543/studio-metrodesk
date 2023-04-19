@@ -14,12 +14,16 @@ import UsingOurWorks from '../../Component/UsingOurWorks/UsingOurWorks';
 import WhoWeHelp from '../../Component/WhoWeHelp/WhoWeHelp';
 import WhyUs from '../../Component/WhyUs/WhyUs';
 import WorkingProcess from '../../Component/WorkingProcess/WorkingProcess';
+import HomeComponentTwo from '../../Component/HomeComponent/HomeComponentTwo';
+import HomeComponentThree from '../../Component/HomeComponent/HomeComponentThree';
 
 const HomePage = () => {
     return (
         <div>
             {/* <HomeComponent/> */}
-            <HomeComponentCopy/>
+            {/* <HomeComponentCopy/> */}
+            {/* <HomeComponentTwo/> */}
+            <HomeComponentThree/>
             <FlagComponent/>
             <ServiceComponent/>
             <ServiceComponentCopy/>

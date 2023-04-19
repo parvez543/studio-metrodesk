@@ -93,7 +93,7 @@ const MultiClippingPathCalculator = () => {
                         <p className='mb-4'>per image price</p>
                     </div>
                     <div>
-                        <input type="number" className='input input-bordered w-[239px] mb-4' name="number"></input> <br />
+                        <input type="number" min="0" className='input input-bordered w-[239px] mb-4' name="number"></input> <br />
                         <div className='mb-4'>
                             <select name="option" className="select input input-bordered w-[239px]">
                                 <option disabled selected>Choose Price</option>
