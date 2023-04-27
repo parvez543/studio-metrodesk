@@ -17,6 +17,7 @@ import WorkingProcess from '../../Component/WorkingProcess/WorkingProcess';
 import HomeComponentTwo from '../../Component/HomeComponent/HomeComponentTwo';
 import HomeComponentThree from '../../Component/HomeComponent/HomeComponentThree';
 import HomeComponentFour from '../../Component/HomeComponent/HomeComponentFour';
+import HomeComponentFive from '../../Component/HomeComponent/HomeComponentFive';
 
 const HomePage = () => {
     return (
@@ -25,7 +26,8 @@ const HomePage = () => {
             {/* <HomeComponentCopy/> */}
             {/* <HomeComponentTwo/> */}
             {/* <HomeComponentThree/> */}
-            <HomeComponentFour/>
+            {/* <HomeComponentFour/> */}
+            <HomeComponentFive/>
             <FlagComponent/>
             <ServiceComponent/>
             <ServiceComponentCopy/>
