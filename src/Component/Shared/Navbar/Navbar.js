@@ -10,24 +10,24 @@ const Navbar = () => {
 
     // console.log(show);
     return (
-        <div className='md:bg-white md:shadow-md'>
-            <div className=''>
+        <div className=''>
+            <div className='navContent py-8'>
 
-                <div className='container mx-auto px-10'>
-                    <div class="header-container mx-auto flex justify-center w-full mb-hide dx-header">
+                <div className=''>
+                    <div class="header-container mx-auto flex justify-end items-end w-full mb-hide dx-header">
 
                         <nav class="relative text-gray-900 w-full">
                             <div class="container 2xl:gap-8 mx-auto flex lg:justify-center">
-                                <div class="relative block py-2 px-0 md:py-2 2xl:mr-[150px]">
+                                <div class="relative block py-2 px-0 md:py-2">
                                     <Link to="/">
                                         <img className='w-[150px] lg:w-full' src={logoIcon} alt="Studio MetroDesk Logo" />
 
 
                                     </Link>
                                 </div>
-                                <div className='flex items-center ml-0 lg:ml-20 2xl:ml-0'>
+                                <div className='flex items-center ml-0 2xl:mr-[250px] 4xl:mr-[50px]'>
                                     <div className='hidden xl:block'>
-                                        <ul class="flex items-center homeList">
+                                        <ul class="flex items-start homeList">
 
 
                                             <li class="m-item">
@@ -404,8 +404,8 @@ const Navbar = () => {
 
                                 </div>
                                 <div className='hidden lg:block'>
-                                    <div className='flex justify-end items-center mt-[8px] 2xl:ml-[100px]'>
-                                        <Link to="/freetrial" class="text-White color-blue-900 ml-3 freeTrailBtn py-2 px-4 menu-btn-ot mr-2">Get A Quote</Link>
+                                    <div className='flex justify-end items-center mt-[8px]'>
+                                        <Link class="text-White color-blue-900 ml-3 freeTrailBtn py-2 px-4 menu-btn-ot mr-2">Get A Quote</Link>
                                         <Link class="text-White color-blue-900 loginBtn py-2 px-4 menu-btn-ot mr-2 mt-[12px]">Login</Link>
                                         <Link class="text-White color-blue-900 getStartBtn py-2 px-4 menu-btn-ot mr-2 mt-[12px]">Get Started</Link>
                                     </div>

@@ -3,6 +3,7 @@ import { FaStar } from 'react-icons/fa';
 import './HomeComponentTwo.css'
 import clientImage from "../../assets/newImages/Avatar.png"
 import watch from "../../assets/newImages/Rectangle 5.png"
+import { Link } from 'react-router-dom';
 
 const HomeComponentThree = () => {
     return (
@@ -16,7 +17,7 @@ const HomeComponentThree = () => {
                             <h2 className='homeTwoTitle 2xl:w-[668px]'>Studio Metrodesk We make <span className='homeTwoRetouch'>retouching</span> easy!</h2>
                             <p className='homeTwoPara mt-[16px] 2xl:w-[579px]'>Photo Editing Solutions for Fashion, Apparel, E-commerce Businesses and Pro-Photographers. Our 100+ pro photo editors work 24/7 to provide you with the most personalized solutions in the market</p>
                             <div className='flex flex-col md:flex-row justify-start items-center gap-[8px] lg:gap-[16px]'>
-                                <div><button className='headerBtn block mx-auto'>Try Us Free</button></div>
+                               <Link to="/freetrial"> <div><button className='headerBtn block mx-auto'>Try Us Free</button></div></Link>
                                 <div><button className='headerQuote block mx-auto md:mt-[24px]'>Get A Quote</button></div>
                             </div>
                             <p className='creditCard mt-[8px]'>No credit card required.</p>

@@ -16,6 +16,7 @@ import WhyUs from '../../Component/WhyUs/WhyUs';
 import WorkingProcess from '../../Component/WorkingProcess/WorkingProcess';
 import HomeComponentTwo from '../../Component/HomeComponent/HomeComponentTwo';
 import HomeComponentThree from '../../Component/HomeComponent/HomeComponentThree';
+import HomeComponentFour from '../../Component/HomeComponent/HomeComponentFour';
 
 const HomePage = () => {
     return (
@@ -23,7 +24,8 @@ const HomePage = () => {
             {/* <HomeComponent/> */}
             {/* <HomeComponentCopy/> */}
             {/* <HomeComponentTwo/> */}
-            <HomeComponentThree/>
+            {/* <HomeComponentThree/> */}
+            <HomeComponentFour/>
             <FlagComponent/>
             <ServiceComponent/>
             <ServiceComponentCopy/>

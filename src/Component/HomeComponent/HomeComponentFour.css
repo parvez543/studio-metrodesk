@@ -1,0 +1,29 @@
+.retouchGirl{
+    /* width: 340px; */
+/* height: 550px; */
+
+/* Base/Black */
+
+background: #000000;
+border-radius: 16px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.retouchShirt{
+    width: 380px;
+
+/* Base/Black */
+
+background: #000000;
+border-radius: 16px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}

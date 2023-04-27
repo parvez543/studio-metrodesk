@@ -68,6 +68,17 @@ order: 1;
 flex-grow: 0;
 }
 
+.navContent{
+ 
+gap: 32px;
+
+
+/* width: 1920px; */
+height: 90px;
+left: 0px;
+top: 0px;
+}
+
 .freeTrailBtn{
   
   height: 20px;

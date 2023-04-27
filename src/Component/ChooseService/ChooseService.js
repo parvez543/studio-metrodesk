@@ -6,7 +6,7 @@ import retouching from "../../assets/images/card_3.jpg"
 import vector from "../../assets/images/card_4.jpg"
 import embroidery from "../../assets/images/card_5.jpg"
 import hairMasking from "../../assets/images/card_6.jpg"
-import { FaAngleRight } from 'react-icons/fa';
+import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import FreeTrialDashboard from '../FreeTrialDashboard/FreeTrialDashboard';
 
 
@@ -14,7 +14,7 @@ const ChooseService = () => {
 
     const [next, setNext] = useState(null)
     const [clickedService, setclickedService] = useState("")
-    
+
     const handleChange = (e) => {
         setclickedService(e.target.value)
     }
@@ -133,9 +133,10 @@ const ChooseService = () => {
                                     </div>
                                 </div>
 
-                                <div class="main-button flex justify-end">
-                                    <div></div>
-                                    <div class="next-btn">
+                                <div class="main-button flex items-center">
+
+
+                                    <div class="next-btn 2xl:ml-[950px]">
                                         <button class="right-arrow btn" id="serveice-button" disabled={!clickedService} onClick={() => setNext("images")}>
                                             Next <FaAngleRight />
                                         </button>
@@ -144,21 +145,36 @@ const ChooseService = () => {
 
                             </div>
                         }
-                        {
-                            clickedService && next==="images" &&  <div >
-                                <div><FreeTrialDashboard/></div>
-                                <button onClick={()=>setNext("contact")}>Next</button>
+                        <div className='flex'>
+                            {
+                                clickedService && next === "images" && <div >
+                                    <div><FreeTrialDashboard /></div>
+                                    <button class="right-arrow btn" id="serveice-button" disabled={!clickedService} onClick={() => setNext((currentPage) => currentPage - 1)}>
+                                        <FaAngleLeft />Previous
+                                    </button>
+                                </div>
+
+                            }
+                            {
+                                clickedService && next === "images" && <div >
+                                    <div><FreeTrialDashboard /></div>
+                                    <div class="next-btn 2xl:ml-[755px]">
+                                        <button class="right-arrow btn" id="serveice-button" disabled={!clickedService} onClick={() => setNext("contact")}>
+                                            Next <FaAngleRight />
+                                        </button>
+                                    </div>
+                                </div>
+
+                            }
                         </div>
 
-                        }
-
                         {
-                            clickedService && next==="contact" &&  <div >
+                            clickedService && next === "contact" && <div >
                                 {/* <div><FreeTrialContactForm/></div> */}
                                 <div className='mt-5 mb-5 flex justify-end'>
-                                    <button className='submitBtn flex items-center gap-3'>Submit <FaAngleRight/></button>
+                                    <button className='submitBtn flex items-center gap-3'>Submit <FaAngleRight /></button>
                                 </div>
-                        </div>
+                            </div>
 
                         }
 
