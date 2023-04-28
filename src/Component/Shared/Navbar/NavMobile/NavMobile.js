@@ -39,7 +39,7 @@ const NavMobile = () => {
   };
 
   return (
-    <div className='block lg:hidden mt-[10px]'>
+    <div className='block lg:hidden'>
       <button
         onClick={toggleDrawer}
         className="text-4xl font-bold hover:text-gray-400 ease-in-out duration-300 w-[40px] flex justify-center items-center hover:border-r-4 hover:border-black"

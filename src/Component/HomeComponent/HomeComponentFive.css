@@ -1,0 +1,6 @@
+.imageSection {
+    width: 400px;
+    height: 500px;
+    border-radius: 16px;
+    object-fit: cover;
+}

@@ -9,11 +9,12 @@ import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 // import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import slide_image_1 from "../../assets/newImages/slide_image/Rectangle 7.png"
-import slide_image_2 from "../../assets/newImages/slide_image/Rectangle 9.png"
+import slide_image_2 from "../../assets/newImages/slide_image/Rectangle 8.png"
 import slide_image_3 from "../../assets/newImages/slide_image/Rectangle 10.png"
 import slide_image_4 from "../../assets/newImages/slide_image/Rectangle 11.png"
-import slide_image_5 from "../../assets/newImages/slide_image/Rectangle 8.png"
+import slide_image_5 from "../../assets/newImages/slide_image/Rectangle 9.png"
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import "../../index.css"
 
 
 const HomeComponentSix = () => {
@@ -54,13 +55,12 @@ const HomeComponentSix = () => {
                         clickable: true,
                     }}
                     modules={[EffectCoverflow, Pagination, Navigation]}
-                    className="swiper_container swiper-slide"
-                    
+                    className="swiper_container"
                 >
                     <SwiperSlide >
                         <img src={slide_image_1} alt="slide_image" className='sliderImage' />
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className="swiper-slide">
                         <img src={slide_image_2} alt="slide_image" className='sliderImage sliderImageTwo' />
                     </SwiperSlide>
                     <SwiperSlide>
@@ -68,10 +68,10 @@ const HomeComponentSix = () => {
                         <img src={slide_image_3} alt="slide_image" className='sliderImage sliderImageTwo' />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={slide_image_4} alt="slide_image" className='sliderImage' />
+                        <img src={slide_image_5} alt="slide_image" className='sliderImage' />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={slide_image_5} alt="slide_image" className='sliderImage' />
+                        <img src={slide_image_4} alt="slide_image" className='sliderImage' />
                     </SwiperSlide>
 
 

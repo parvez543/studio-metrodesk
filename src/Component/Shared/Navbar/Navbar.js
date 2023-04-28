@@ -11,7 +11,7 @@ const Navbar = () => {
     // console.log(show);
     return (
         <div className=''>
-            <div className='navContent py-8'>
+            <div className='navContent py-8 px-10 lg:px-0'>
 
                 <div className=''>
                     <div class="header-container mx-auto flex justify-end items-end w-full mb-hide dx-header">

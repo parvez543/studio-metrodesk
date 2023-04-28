@@ -1,76 +1,46 @@
 import React from 'react';
 import "./HomeComponentFive.css"
-import { Link } from 'react-router-dom';
-import { FaStar } from 'react-icons/fa';
-import clientImage from "../../assets/newImages/Avatar.png"
-import shirt from "../../assets/newImages/HomeTwo (1)/Hero Section/Rectangle 7.png"
-import watch from "../../assets/newImages/HomeTwo (1)/Hero Section/Rectangle 8.png"
-import girl from "../../assets/newImages/HomeTwo (1)/Hero Section/Rectangle 7-1.png"
-import chair from "../../assets/newImages/HomeTwo (1)/Hero Section/Rectangle 8-1.png"
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import women from "../../assets/newImages/HomeBanner (1)/Hero Section/women.png"
+import watch from "../../assets/newImages/HomeBanner (1)/Hero Section/watch.png"
+import shirt from "../../assets/newImages/HomeBanner (1)/Hero Section/t-shirt.png"
+import chair from "../../assets/newImages/HomeBanner (1)/Hero Section/chair.png"
+
 
 
 const HomeComponentFive = () => {
+    const [text] = useTypewriter({
+        words: ['retouching', 'multi-clipping', 'clipping path', 'ghost mannequin', 'deep-etching'],
+        loop: 1000,
+        onLoopDone: () => console.log(`loop completed after 3 runs.`)
+    })
     return (
-        <div className='container mx-auto px-10 lg:px-20 2xl:px-56'>
-            <div className='mt-[20px] mb-[16px] lg:mt-[48px] sm:px-12 lg:px-0 flex'>
-                {/* Parent Container */}
-                <div >
-                    {/* Section One */}
-                    <div>
-                        <div>
-                            <h2 className='homeTwoTitle'>Studio Metrodesk We make <span className='homeTwoRetouch'>retouching</span> easy!</h2>
-                            <p className='homeTwoPara mt-[16px]'>Photo Editing Solutions for Fashion, Apparel, E-commerce Businesses and Pro-Photographers. Our 100+ pro photo editors work 24/7 to provide you with the most personalized solutions in the market</p>
-                            <div className='flex flex-col md:flex-row justify-start items-center gap-[8px] lg:gap-[16px]'>
-                                <Link to="/freetrial"> <div><button className='headerBtn block mx-auto'>Try Us Free</button></div></Link>
-                                <div><button className='headerQuote block mx-auto md:mt-[24px]'>Get A Quote</button></div>
-                            </div>
-                            <p className='creditCard mt-[8px]'>No credit card required.</p>
-                        </div>
-                        {/* Review */}
-                        <div className='mt-[64.5px]'>
-                            <div className='flex items-center gap-[4px]'>
-                                <FaStar className='text-[#FEC84B]' />
-                                <FaStar className='text-[#FEC84B]' />
-                                <FaStar className='text-[#FEC84B]' />
-                                <FaStar className='text-[#FEC84B]' />
-                                <FaStar className='text-[#FEC84B]' />
-                            </div>
-                            <p className='reviewPara mt-[7.5px] text-left 2xl:w-[522px]'>Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.</p>
-                            <div className='mt-[16px] flex items-center gap-[8px]'>
-                                <div>
-                                    <img src={clientImage} alt="Studio MetroDesk Client" />
-                                </div>
-                                <div className='text-left'>
-                                    <p className='clientName'>Lyle Kauffman</p>
-                                    <p className='title'>Photographer, Sisyphus</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* Section Two */}
-                </div>
-                <div className='w-full lg:ml-12 grid grid-cols-2 gap-[8px]'>
-                   <div className='flex flex-col gap-[8px]'>
-                        <div>
-                                <img className='retouchGirl w-full' src={shirt} alt="Studio MetroDesk t-shirt Retouching" />
-                        </div>
-                        <div>
-                                <img className='retouchGirl w-full' src={watch} alt="Studio MetroDesk Watch Retouching" />
-                        </div>
-                   </div>
-                   <div className='flex flex-col gap-[8px] mt-[30px]'>
-                        <div>
-                                <img className='retouchGirl w-full' src={girl} alt="Studio MetroDesk girl Retouching" />
-                        </div>
-                        <div>
-                                <img className='retouchGirl w-full' src={chair} alt="Studio MetroDesk Watch Retouching" />
-                        </div>
-                   </div>
-                </div>
-                <div>
-                   
+        <div className='mt-[20px] lg:mt-[48px] sm:px-12 lg:px-0'>
+            <div>
+                <h2 className='homeContainer text-[30px] lg:text-[60px] px-5 lg:px-0'>Experience Flawless </h2>
+                <h2 className='homeContainer text-[30px] lg:text-[60px]'><span className='homeText'> <span>{text}</span><Cursor cursorColor='blue' /></span></h2>
+                <p className='mt-[16px] homeParagraph px-5 lg:px-0 text-[14px] lg:text-[16px]'>Photo Editing Solutions for Fashion, Apparel, E-commerce Businesses and Pro-<br /> Photographers. Our 100+ pro photo editors work 24/7 to provide you with the <br /> most personalized solutions in the market</p>
+                <div className='flex flex-col md:flex-row justify-center items-center gap-[8px] lg:gap-[16px]'>
+                    <div><button className='headerBtn block mx-auto'>Try Us Free</button></div>
+                    <div><button className='headerQuote block mx-auto md:mt-[24px]'>Get A Quote</button></div>
                 </div>
             </div>
+           {/* Image Container */}
+           <div className='grid lg:grid-cols-4 justify-items-center mb-[50px] px-10 lg:px-20'>
+                <div>
+                    <img className='imageSection mt-[20px] lg:mt-[104px]' src={chair} alt="Studio MetroDesk PhotoRetouching"/>
+                </div>
+                <div>
+                    <img className='imageSection mt-[10px] lg:mt-[64px]' src={women} alt="Studio MetroDesk PhotoRetouching"/>
+                </div>
+                <div>
+                    <img className='imageSection mt-[10px] lg:mt-[104px]' src={watch} alt="Studio MetroDesk PhotoRetouching"/>
+                </div>
+                <div>
+                    <img className='imageSection mt-[10px] lg:mt-[48px]' src={shirt} alt="Studio MetroDesk PhotoRetouching"/>
+                </div>
+           </div>
+
         </div>
     );
 };
