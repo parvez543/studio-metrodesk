@@ -26,3 +26,7 @@ code {
 .swiper_container{
   width: 1000px !important;
 }
+img{
+  height: auto;
+  max-width: max-content;
+}

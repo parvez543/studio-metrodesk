@@ -1,0 +1,13 @@
+.slider__stick {
+    position: absolute;
+
+    /* height: 540px !important; */
+    background-color: white !important;
+}
+
+.img{
+
+    height: auto;
+    max-width: initial !important;
+
+}

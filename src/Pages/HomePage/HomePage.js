@@ -19,6 +19,9 @@ import HomeComponentThree from '../../Component/HomeComponent/HomeComponentThree
 import HomeComponentFour from '../../Component/HomeComponent/HomeComponentFour';
 import HomeComponentFive from '../../Component/HomeComponent/HomeComponentFive';
 import HomeComponentSix from '../../Component/HomeComponent/HomeComponentSix';
+import HomeComponentSeven from '../../Component/HomeComponent/HomeComponentSeven';
+import HomeComponentEight from '../../Component/HomeComponent/HomeComponentEight';
+import HomeComponentNine from '../../Component/HomeComponent/HomeComponentNine';
 
 const HomePage = () => {
     return (
@@ -29,7 +32,10 @@ const HomePage = () => {
             {/* <HomeComponentThree/> */}
             {/* <HomeComponentFour/> */}
             {/* <HomeComponentFive/> */}
-            <HomeComponentSix/>
+            {/* <HomeComponentSix/> */}
+            <HomeComponentSeven/>
+            {/* <HomeComponentEight/> */}
+            {/* <HomeComponentNine/> */}
             <FlagComponent/>
             <ServiceComponent/>
             <ServiceComponentCopy/>
