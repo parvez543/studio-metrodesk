@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./HomeComponentNine.css"
 import ImageSlider from 'react-image-comparison-slider';
 import before from "../../assets/newImages/Homepage_nine/Hero Section/Rectangle 24.png"
 import after from "../../assets/newImages/Homepage_nine/Hero Section/Rectangle 24.png"
+import imgData from "../../data/homeNine"
+import buttons from '../../data/button';
 
 const HomeComponentNine = () => {
+
+    const [images, setImages] = useState("")
+
+ 
     return (
         <div className='container mx-auto px-10 lg:px-20 2xl:px-56'>
             {/* Parent Container */}
@@ -23,6 +29,9 @@ const HomeComponentNine = () => {
                     </div>
                 </div>
             </div>
+            {/* {
+                imgData?.map(img => console.log(img))
+            } */}
             <div style={{ width: "1216px", height: "727px" }} className='block mx-auto mt-[40px] mb-[40px]'>
                 <ImageSlider
                     image1={before}
@@ -33,27 +42,13 @@ const HomeComponentNine = () => {
                 />
             </div>
             {/* Button Section */}
-            <div className='mb-[24px] flex justify-center items-center gap-[8px]'>
-                <div className='inputContainer'>
-                    <input className='mr-[6px]' type="checkbox"></input>
-                    <label className='inputText'>Clipping Path</label>
-                </div>
-                <div className='inputContainer'>
-                    <input className='mr-[6px]' type="checkbox"></input>
-                    <label className='inputText'>Shadow</label>
-                </div>
-                <div className='inputContainer'>
-                    <input className='mr-[6px]' type="checkbox"></input>
-                    <label className='inputText'>Reflection</label>
-                </div>
-                <div className='inputContainer'>
-                    <input className='mr-[6px]' type="checkbox"></input>
-                    <label className='inputText'>Remove Dust & Scratches</label>
-                </div>
-                <div className='inputContainer'>
-                    <input className='mr-[6px]' type="checkbox"></input>
-                    <label className='inputText'>Remove Dust & Scratches</label>
-                </div>
+            <div className='mb-[24px] flex justify-center items-center gap-[8px]' >
+                {
+                    buttons?.map(button => <>
+                        <input type='checkbox'/>
+                        <label className='inputText' onClick={() => setImages(images.id)}>{button.name}</label>
+                    </>)
+                }
             </div>
         </div>
     );
