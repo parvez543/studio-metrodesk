@@ -15,8 +15,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-img{
+.swiper-slide{
   
-  max-width: min-content !important;
+    width: 45% !important;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    display: block;
+}
+.swiper_container{
+  /* width: 1000px !important; */
+}
+img{
+  /* height: auto; */
+  /* width: auto; */
+  
 }

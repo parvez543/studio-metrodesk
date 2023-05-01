@@ -42,11 +42,11 @@ const HomeComponentNine = () => {
                 />
             </div>
             {/* Button Section */}
-            <div className='mb-[24px] flex justify-center items-center gap-[8px]' >
+            <div className='mb-[24px] flex justify-center items-center gap-[8px]' onClick={() => setImages(imgData.id)}>
                 {
                     buttons?.map(button => <>
                         <input type='checkbox'/>
-                        <label className='inputText' onClick={() => setImages(images.id)}>{button.name}</label>
+                        <label className='inputText'>{button.name}</label>
                     </>)
                 }
             </div>

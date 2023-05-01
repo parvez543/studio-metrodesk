@@ -32,10 +32,10 @@ const HomePage = () => {
             {/* <HomeComponentThree/> */}
             {/* <HomeComponentFour/> */}
             {/* <HomeComponentFive/> */}
-            {/* <HomeComponentSix/> */}
+            <HomeComponentSix/>
             {/* <HomeComponentSeven/> */}
             {/* <HomeComponentEight/> */}
-            <HomeComponentNine/>
+            {/* <HomeComponentNine/> */}
             <FlagComponent/>
             <ServiceComponent/>
             <ServiceComponentCopy/>
