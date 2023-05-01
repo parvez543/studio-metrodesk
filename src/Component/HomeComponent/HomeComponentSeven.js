@@ -16,14 +16,14 @@ const HomeComponentSeven = () => {
 
     return (
         <div className='container mx-auto px-10 lg:px-20 2xl:px-56'>
-            <div className='mt-[20px] mb-[16px] lg:mt-[48px] sm:px-12 lg:px-0 flex'>
+            <div className='mt-[20px] mb-[16px] lg:mt-[48px] sm:px-12 lg:px-0 flex flex-col lg:flex-row'>
                 {/* Parent Container */}
                 <div >
                     {/* Section One */}
                     <div>
-                        <div>
+                        <div className='mr-[60px]'>
                             <h2 className='homeTwoTitle'>Studio Metrodesk We make <span className='homeTwoRetouch'>retouching</span> easy!</h2>
-                            <p className='homeTwoPara -mt-[48px] lg:mr-[30px]'>Photo Editing Solutions for Fashion, Apparel, E-commerce Businesses and Pro-Photographers. Our 100+ pro photo editors work 24/7 to provide you with the most personalized solutions in the market</p>
+                            <p className='homeTwoPara mt-[30px] lg:mr-[30px]'>Photo Editing Solutions for Fashion, Apparel, E-commerce Businesses and Pro-Photographers. Our 100+ pro photo editors work 24/7 to provide you with the most personalized solutions in the market</p>
                             <div className='flex flex-col md:flex-row justify-start items-center gap-[8px] lg:gap-[16px]'>
                                 <Link to="/freetrial"> <div><button className='headerBtn block mx-auto'>Try Us Free</button></div></Link>
                                 <div><button className='headerQuote block mx-auto md:mt-[24px]'>Get A Quote</button></div>
@@ -55,7 +55,7 @@ const HomeComponentSeven = () => {
 
                 </div>
                 {/* Image Section */}
-                <div style={{ width: 700, height: 450 }}>
+                <div style={{ width: 1000}}>
                     <ImageSlider
                         image1={before}
                         image2={after}

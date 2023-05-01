@@ -33,9 +33,9 @@ const HomePage = () => {
             {/* <HomeComponentFour/> */}
             {/* <HomeComponentFive/> */}
             {/* <HomeComponentSix/> */}
-            <HomeComponentSeven/>
+            {/* <HomeComponentSeven/> */}
             {/* <HomeComponentEight/> */}
-            {/* <HomeComponentNine/> */}
+            <HomeComponentNine/>
             <FlagComponent/>
             <ServiceComponent/>
             <ServiceComponentCopy/>
