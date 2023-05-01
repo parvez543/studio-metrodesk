@@ -56,9 +56,9 @@ const HomeComponentSeven = () => {
                 </div>
                 {/* Image Section */}
                 <div style={{ width: 1000}}>
-                    <ImageSlider
+                    <ImageSlider  
                         image1={before}
-                        image2={after}
+                        image2={after} className="before-image"
                         onSlide={() => {
                             console.log("sliding");
                         }}

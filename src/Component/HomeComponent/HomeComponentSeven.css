@@ -4,4 +4,6 @@
     /* height: 540px !important; */
     background-color: white !important;
 }
-
+.before-image{
+    max-width: max-content !important;
+}

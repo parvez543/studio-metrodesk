@@ -24,10 +24,11 @@ code {
     display: block;
 }
 .swiper_container{
-  /* width: 1000px !important; */
+  width: 1000px !important;
 }
 img{
   /* height: auto; */
   /* width: auto; */
+  max-width: max-content;
   
 }
