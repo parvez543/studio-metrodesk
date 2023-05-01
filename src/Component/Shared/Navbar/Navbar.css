@@ -280,4 +280,8 @@ background:#ffffff;
   cursor:pointer;
   
 }
+.navContent{
+  z-index: 5000;
+  position: relative;
+}
  

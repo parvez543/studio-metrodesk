@@ -23,6 +23,7 @@ import HomeComponentSeven from '../../Component/HomeComponent/HomeComponentSeven
 import HomeComponentEight from '../../Component/HomeComponent/HomeComponentEight';
 import HomeComponentNine from '../../Component/HomeComponent/HomeComponentNine';
 import HomeComponentTen from '../../Component/HomeComponent/HomeComponentTen';
+import TrustedBrand from '../../Component/TrustedBrand/TrustedBrand';
 
 const HomePage = () => {
     return (
@@ -38,6 +39,7 @@ const HomePage = () => {
             {/* <HomeComponentEight/> */}
             {/* <HomeComponentNine/> */}
             <HomeComponentTen/>
+            <TrustedBrand/>
             <FlagComponent/>
             <ServiceComponent/>
             <ServiceComponentCopy/>
