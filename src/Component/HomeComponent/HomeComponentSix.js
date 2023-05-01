@@ -24,7 +24,7 @@ const HomeComponentSix = () => {
         onLoopDone: () => console.log(`loop completed after 3 runs.`)
     })
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56'>
             <div className='mt-[20px] lg:mt-[48px] sm:px-12 lg:px-0'>
                 <div>
                     <h2 className='homeContainer text-[30px] lg:text-[60px] px-5 lg:px-0'>Experience Flawless </h2>

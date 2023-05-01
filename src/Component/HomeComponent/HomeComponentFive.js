@@ -3,8 +3,8 @@ import "./HomeComponentFive.css"
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import women from "../../assets/newImages/HomeBanner (1)/Hero Section/women.png"
 import watch from "../../assets/newImages/HomeBanner (1)/Hero Section/watch.png"
-import shirt from "../../assets/newImages/HomeBanner (1)/Hero Section/t-shirt.png"
-import chair from "../../assets/newImages/HomeBanner (1)/Hero Section/chair.png"
+import shirt from "../../assets/newImages/shirt.png"
+import chair from "../../assets/newImages/Chair/Hero Section/Rectangle 12.png"
 
 
 
@@ -15,7 +15,7 @@ const HomeComponentFive = () => {
         onLoopDone: () => console.log(`loop completed after 3 runs.`)
     })
     return (
-        <div className='mt-[20px] lg:mt-[48px] sm:px-12 lg:px-0'>
+        <div className='mt-[20px] lg:mt-[48px] sm:px-12 lg:px-10'>
             <div>
                 <h2 className='homeContainer text-[30px] lg:text-[60px] px-5 lg:px-0'>Experience Flawless </h2>
                 <h2 className='homeContainer text-[30px] lg:text-[60px]'><span className='homeText'> <span>{text}</span><Cursor cursorColor='blue' /></span></h2>
@@ -26,9 +26,9 @@ const HomeComponentFive = () => {
                 </div>
             </div>
            {/* Image Container */}
-           <div className='grid lg:grid-cols-4 justify-items-center mb-[50px] px-10 lg:px-20'>
+           <div className='grid lg:grid-cols-4 justify-items-center mb-[50px] px-10 lg:px-10'>
                 <div>
-                    <img className='imageSection mt-[20px] lg:mt-[104px]' src={chair} alt="Studio MetroDesk PhotoRetouching"/>
+                    <img className='imageSection mt-[20px]' src={chair} alt="Studio MetroDesk PhotoRetouching"/>
                 </div>
                 <div>
                     <img className='imageSection mt-[10px] lg:mt-[64px]' src={women} alt="Studio MetroDesk PhotoRetouching"/>
