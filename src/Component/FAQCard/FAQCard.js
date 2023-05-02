@@ -14,7 +14,7 @@ const FAQCard = ({question}) => {
            </div>
             {
                 item && <div>
-                    <p className='text-xl py-6'>{question.answer}</p>
+                    <p className='text-xl py-6 text-gray-500 font-light'>{question.answer}</p>
                 </div>
             }
         </div>
