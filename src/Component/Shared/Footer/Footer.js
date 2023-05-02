@@ -11,7 +11,7 @@ const Footer = () => {
                     <img src={logo} alt="Logo of StudioMetroDesk" />
                     <p className='text-left lg:w-[400px] mt-4 text-lg text-gray-700 font-light'>We're on a mission to make high-volume image editing effortless for our clients. Look at our logo; it shows how we make our clients feel comfortable once they outsource the editing work to us. Editing done on time on budget — EVERY TIME.</p>
                 </div>
-                <div className='grid lg:grid-cols-4 gap-2 2xl:gap-6'>
+                <div className='grid lg:grid-cols-4 gap-2 2xl:gap-6 justify-center'>
                     <div>
                         <h2 className='font-semibold text-xl mb-4 text-left'>SERVICES</h2>
                         <div className='text-left text-gray-500 font-light text-base'>
@@ -23,7 +23,7 @@ const Footer = () => {
                             <p>Embroidery Digitizing</p>
                         </div>
                     </div>
-                    <div>
+                    <div className='ml-[12px]'>
                         <h2 className='font-semibold text-xl mb-4 text-left'>ABOUT</h2>
                         <div className='text-left text-gray-500 font-light text-base'>
                             <p className='mb-[6px]'>Testimonials</p>
@@ -35,7 +35,7 @@ const Footer = () => {
                             <p>Privacy Policy</p>
                         </div>
                     </div>
-                    <div>
+                    <div className='-ml-[30px]'>
                         <h2 className='font-semibold text-left text-xl mb-4'>BUSINESS</h2>
                         <div className='text-left text-gray-700 font-light text-base'>
                             <p className='mb-[6px]'>Get Free Trial</p>
@@ -43,7 +43,7 @@ const Footer = () => {
                             <p className='mb-[6px]'>Sign IN/UP</p>
                         </div>
                     </div>
-                    <div>
+                    <div className='-ml-[50px]'>
                         <h2 className='font-semibold text-xl mb-4 text-left'>SUPPORT</h2>
                         <div className='text-left text-gray-700 font-light text-base'>
                             <p className='mb-[6px]'>Contact Us</p>
