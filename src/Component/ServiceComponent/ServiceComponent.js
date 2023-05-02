@@ -8,7 +8,7 @@ const ServiceComponent = () => {
     return (
         <div className='container mx-auto pt-20 px-10 2xl:px-56 '>
             <h2 className='text-3xl mb-[24px] md:text-4xl lg:text-5xl text-left serviceText font-semibold lg:px-12 2xl:px-0'>Photo Editing Services </h2>
-            <p className='text-left md:text-lg text-gray-500 mb-[48px] lg:px-12 2xl:px-0'>Let us look after the edits, so you can get back to the work that needs you. You can always <span className='markText'>get up to 20% discount</span> during order placement when selecting a longer turnaround time.</p>
+            <p className='text-left md:text-lg text-gray-700 font-light mb-[48px] lg:px-12 2xl:px-0'>Let us look after the edits, so you can get back to the work that needs you. You can always <span className='markText'>get up to 20% discount</span> during order placement when selecting a longer turnaround time.</p>
             {/* <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:gap-8 mt-12'>
                 {
                     serviceData?.map((sData, id) => <>

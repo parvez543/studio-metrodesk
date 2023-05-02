@@ -13,12 +13,12 @@ const ImageProcessComponent = () => {
                 <div className='flex flex-col lg:flex-row justify-around gap-8 items-center'>
                     {/* Heading Container */}
                     <div className='ml-0 lg:-ml-3 2xl:ml-0'>
-                        <h2 className='mb-3 text-3xl md:text-4xl text-left font-medium secHead'>10,000+ Images <br /> Process Daily</h2>
-                        <p className='mb-8 text-gray-800 lg:w-[350px] text-left text-xl'>With our growing expert team, scaling to meet your photo processing needs is easy!</p>
-                        <button className='text-White hover:bg-blue-900 bg-cyan-900 py-3 px-6 menu-btn text-center flex items-center gap-2' >Get Started  <FaArrowRight /></button>
+                        <h2 className='text-3xl md:text-4xl text-left font-semibold mb-[24px] secHead'>10,000+ Images <br /> Process Daily</h2>
+                        <p className='lg:w-[350px] text-gray-700 font-light text-left text-xl mb-[24px]'>With our growing expert team, scaling to meet your photo processing needs is easy!</p>
+                        <button className='text-White hover:bg-blue-900 bg-cyan-900 py-3 px-6 headerStartBtn text-center flex items-center gap-2' >Get Started  <FaArrowRight /></button>
                     </div>
                     {/* Card Container */}
-                    <div className='flex flex-col lg:flex-row justify-center items-center gap-12'>
+                    <div className='flex flex-col lg:flex-row justify-center items-center gap-6'>
                         <div>
                             <div className='flex flex-col justify-center items-center bg-white text-center imgContainer mb-6'>
                                 {/* Image Container 1*/}
@@ -27,9 +27,9 @@ const ImageProcessComponent = () => {
                                 </div>
                                 {/* Content Container */}
                                 <div className='pb-10 px-6'>
-                                    <h3 className='text-4xl text-grad-800 font-medium mt-10 mb-4'>99.8%</h3>
-                                    <p className='text-2xl font-semibold theme-purple secHead mb-2'>First Time Approval</p>
-                                    <p className='text-gray-400'>We try to remove the back and forth to reach the perfect editing result.</p>
+                                    <h3 className='text-2xl text-gray-700 font-medium mt-[24px] mb-4'>99.8%</h3>
+                                    <p className='text-2xl font-semibold theme-purple secHead mb-[8px]'>First Time Approval</p>
+                                    <p className='text-gray-500 font-light'>We try to remove the back and forth to reach the perfect editing result.</p>
                                 </div>
                             </div>
                             <div className='flex flex-col justify-center items-center bg-white text-center imgContainer'>
@@ -39,9 +39,9 @@ const ImageProcessComponent = () => {
                                 </div>
                                 {/* Content Container */}
                                 <div className='pb-10 px-6'>
-                                    <h3 className='text-4xl text-grad-800 font-medium mt-10 mb-4'>99.5%</h3>
-                                    <p className='text-2xl font-semibold theme-purple secHead mb-2'>On Time Delivery</p>
-                                    <p className='text-gray-400'>At Studio Metrodesk, we hate being late as much as you do.</p>
+                                    <h3 className='text-2xl text-gray-700 font-medium mt-[24px] mb-4'>99.5%</h3>
+                                    <p className='text-2xl font-semibold theme-purple secHead mb-[8px]'>On Time Delivery</p>
+                                    <p className='text-gray-500 font-light'>At Studio Metrodesk, we hate being late as much as you do.</p>
                                 </div>
                             </div>
                         </div>
@@ -53,9 +53,9 @@ const ImageProcessComponent = () => {
                                 </div>
                                 {/* Content Container */}
                                 <div className='pb-10 px-6'>
-                                    <h3 className='text-4xl text-grad-800 font-medium mt-10 mb-4'>1 Hour</h3>
-                                    <p className='text-2xl font-semibold theme-purple secHead mb-2'>Turn Around Time</p>
-                                    <p className='text-gray-400'>Get your images back in as little as 1-hour, even if you have hundreds of shots to get through.</p>
+                                    <h3 className='text-2xl text-gray-700 font-medium mt-[24px] mb-4'>1 Hour</h3>
+                                    <p className='text-2xl font-semibold theme-purple secHead mb-[8px]'>Turn Around Time</p>
+                                    <p className='text-gray-500 font-light'>Get your images back in as little as 1-hour, even if you have hundreds of shots to get through.</p>
                                 </div>
                             </div>
                         </div>

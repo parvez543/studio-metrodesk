@@ -13,6 +13,7 @@
     box-shadow: px 0px 15px rgba(0,0,0,0.11);
     padding: 30px;
     border-radius: 8px;
+    padding: 50px;
     position: relative;
     box-shadow: 5px 0px 15px rgba(0,0,0,0.11);
     
@@ -27,7 +28,7 @@
 
 .arrow{
     position: absolute;
-    margin-left: -35px;
+    margin-left: -50px;
     display: flex;
     align-items: center;
     margin-top: -55px;

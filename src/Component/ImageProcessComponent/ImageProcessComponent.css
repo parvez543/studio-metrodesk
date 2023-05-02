@@ -22,14 +22,14 @@
 .turnAround{
     background: #F39167;
 }
-.menu-btn{
+.headerStartBtn{
     background: #232A5F;
     color: #ffffff;
     border: 1px solid #232A5F;
     border-radius: 6px;
     transition: .3s;
     font-weight: 500;
-    /* width: 200px; */
+    padding: 15px 50px;
 }
 .menu-btn:hover{
 
