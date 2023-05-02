@@ -67,7 +67,7 @@ const Footer = () => {
                 <img src={payment} alt="Studio MetroDesk Payment Partner" className='w-[500px]'/>
             </div>
                 <p className='text-gray-400 text-lg mt-3'>© STUDIO METRODESK INC 2022 | All Rights Reserved</p>
-                <p className='text-gray-400 text-base mt-1 text-purple-400'> <span className='text-sm'>Designed, Developed and Marketed by</span> <a className='text-purple-800 hover:text-blue-900' href="https://studiometrodesk.com/contact">studiometrodesk.com</a></p>
+                <p className='text-base mt-1 text-purple-400'> <span className='text-sm'>Designed, Developed and Marketed by</span> <a className='text-purple-800 hover:text-blue-900' href="https://studiometrodesk.com/contact">studiometrodesk.com</a></p>
         </div>
     );
 };

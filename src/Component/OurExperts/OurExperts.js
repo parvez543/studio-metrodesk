@@ -10,9 +10,9 @@ const OurExperts = () => {
                         <img src={productPhotography} className="" alt="Studio MetroDesk Product Photography" />
                     </div>
                     <div>
-                        <h2 className='mb-5 text-3xl sm:text-4xl md:text-5xl font-medium text-[#7A80BD] text-left'>Let our professional clipping path experts do it</h2>
-                        <p className='text-xl text-left text-gray-700 mb-3'>Undoubtedly spending all day editing photos sucks the passion out of your work, so you need to outsource all clipping path projects to a professional team. Now high-volume image clipping path is cheaper, faster and effortless.</p>
-                        <p className='text-xl text-left text-gray-700'>Our hand-drawn clipping path with meticulous attention to detail guarantees you get perfect clipping paths and clean cut-outs every time.</p>
+                        <h2 className='mb-5 text-3xl sm:text-4xl clipHead font-medium text-[#7A80BD] text-left'>Let our professional clipping path experts do it</h2>
+                        <p className='text-xl text-left text-gray-500 font-light mb-3'>Undoubtedly spending all day editing photos sucks the passion out of your work, so you need to outsource all clipping path projects to a professional team. Now high-volume image clipping path is cheaper, faster and effortless.</p>
+                        <p className='text-xl text-left text-gray-500 font-light'>Our hand-drawn clipping path with meticulous attention to detail guarantees you get perfect clipping paths and clean cut-outs every time.</p>
                     </div>
                 </div>
             </div>
