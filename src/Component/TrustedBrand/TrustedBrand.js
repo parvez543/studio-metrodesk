@@ -1,4 +1,6 @@
 import React from 'react';
+import logoIcon from '../../assets/newImages/Logos.png'
+import "./TrustedBrand.css"
 
 
 const TrustedBrand = () => {
@@ -7,8 +9,8 @@ const TrustedBrand = () => {
             <p className='trustedBrand'>Trusted by 36,000+ companies</p>
             <div>
                 <div>
-                    <div>
-                        {/* <img src={logoIcon} at="Studio MetroDesk Brand Logo Icon"/> */}
+                    <div className='flex justify-center items-center mt-[44px]'>
+                        <img  className='logoIcon' src={logoIcon} alt="Studio MetroDesk Brand Logo Icon"/>
                     </div>
                     <div></div>
                 </div>

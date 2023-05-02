@@ -35,10 +35,10 @@ const HomePage = () => {
             {/* <HomeComponentFour/> */}
             {/* <HomeComponentFive/> */}
             {/* <HomeComponentSix/> */}
-            {/* <HomeComponentSeven/> */}
+            <HomeComponentSeven/>
             {/* <HomeComponentEight/> */}
             {/* <HomeComponentNine/> */}
-            <HomeComponentTen/>
+            {/* <HomeComponentTen/> */}
             <TrustedBrand/>
             <FlagComponent/>
             <ServiceComponent/>

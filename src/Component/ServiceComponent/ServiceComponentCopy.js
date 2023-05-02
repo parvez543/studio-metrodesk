@@ -4,7 +4,7 @@ import serviceData from "../../data/serviceData"
 
 const ServiceComponentCopy = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-20 2xl:px-56 pb-20'>
+        <div className='container mx-auto px-10 lg:px-20 2xl:px-56'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 cursor-pointer'>
                 {
                     serviceData?.map(service => <>

@@ -7,3 +7,30 @@
 .before-image{
     max-width: max-content !important;
 }
+.homeSevenTitle{
+    /* height: 216px; */
+    text-align: left;
+
+    /* Display xl/Bold */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    /* or 120% */
+
+    letter-spacing: -0.02em;
+
+    /* Gray/900 */
+
+    color: #101828;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}

@@ -26,9 +26,10 @@ code {
 .swiper_container{
   width: 1000px !important;
 }
-img{
-  /* height: auto; */
-  /* width: auto; */
-  max-width: max-content;
-  
+.before-after-slider__delimiter-icon{
+  width: 20px   !important ;
+    height: 20px !important;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color:  !important
 }
